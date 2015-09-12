@@ -5,8 +5,8 @@ Names: Christopher Streiffer, David Zhou, Connor Usry
 The goal of our design was to create a structure that allows for new simulation environments to be easily added to the program. As will be discussed in more detail later, our design is structured as a hierarchy, with only necessary information being exchanged between the levels. The simulations will be implemented at the lower-level classes of the program. The higher-level classes will be highly flexible in the sense that they can run the same code on any new addition at the lower levels. The code will be able to receive external input via four different methods. The first is a configuration file that will contribute variables/starting conditions to the various lower-level classes. The second is the xml files that define the initial state of each simulation. The third is a panel that the user can interact with to change parameters within the simulation. The fourth is a main screen that the user can interact with to choose the simulation to run. These will be the only open points in the code -- everything else will be self-contained. Additionally, the higher-level classes will handle the transitioning between different states in the game. We think that the design is the most important part of this assignment, as having a good design will allow for new features to easily be implemented in the later sprints. 
 
 ###Overview
-![Roadmap 1](https://github.com/duke-compsci308-fall2015/cellsociety_team22/images/roadmap1.png)
-![Roadmap 2](https://github.com/duke-compsci308-fall2015/cellsociety_team22/images/roadmap2.png)
+![Roadmap 1](https://github.com/duke-compsci308-fall2015/cellsociety_team22/blob/design/images/roadmap1.png)
+![Roadmap 2](https://github.com/duke-compsci308-fall2015/cellsociety_team22/blob/design/images/roadmap2.png)
 
 The two pictures above illustrate the basic road map for the classes that will comprise our project.  In the first image, the class hierarchy is shown on the leftmost pane and the program control flow is shown in the pane that is second from the left.  We have decided to create three abstract classes to facilitate the implementation of new features.  We will describe each of the classes in detail here.
 
@@ -28,8 +28,8 @@ The two pictures above illustrate the basic road map for the classes that will c
 
 ###User Interface
 
-![Start Screen](https://github.com/duke-compsci308-fall2015/cellsociety_team22/images/start-screen.png)
-![Simulation Screen](https://github.com/duke-compsci308-fall2015/cellsociety_team22/images/sim-screen.png)
+![Start Screen](https://github.com/duke-compsci308-fall2015/cellsociety_team22/blob/design/images/start-screen.png)
+![Simulation Screen](https://github.com/duke-compsci308-fall2015/cellsociety_team22/blob/design/images/sim-screen.png)
 
 The user interface is designed to be very straight-forward and easy to use. The user selects the simulation they want to run by clicking on the image. When the user hovers their mouse over the image, it will scroll through a series of transitions displaying what the simulation might look like. When the user clicks on an image, the corresponding xml files will be loaded into the drop-down menu. When the user selects the xml file, the simulation screen will be loaded. On this screen the user will be able to interact with the simulation through the parameter panel. The parameter panel will be unique to each simulation. The values from the parameter panel will be fed into the Grid class corresponding to the simulation, and will be applied accordingly. There will be buttons added further on that will allow for transitioning between scenes. Errors will be reported to the user when the xml file is attempted to be loaded. Any error in the xml syntax will cause the simulation screen to not load, and the user will have to fix the error or select a different xml file before proceeding. This is an initial design, and the user interface will evolve as we get further into the project. 
 
