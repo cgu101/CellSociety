@@ -10,8 +10,9 @@ public class RootManager {
 	
 	public void init(Stage s) {
 		stage = s;
-		currentScreen = ConfigManager.getObject(AbstractScreen.class, String.format(this.getClass().getName(), "startScreen"));
+		currentScreen = ConfigManager.getObject(AbstractScreen.class, ConfigManager.getString(ConfigManager.scope(this.getClass().getName(), "startScreen")));
 		stage.setScene(currentScreen.getScene());
+		stage.show();
 	}
 	
 	public void run() {

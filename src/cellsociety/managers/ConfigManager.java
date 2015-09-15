@@ -21,7 +21,7 @@ public class ConfigManager {
     	Scanner input = new Scanner(ConfigManager.class.getClassLoader().getResourceAsStream(CONFIG_FILE));
 		while(input.hasNext()) {
 			String nextLine = input.nextLine();
-			if(!nextLine.contains("#") || !nextLine.equals(null)) {
+			if(!nextLine.contains("#") && !nextLine.equals("")) {
 				String[] string = nextLine.split("=");
 				List<String> values = new ArrayList<>(Arrays.asList(string[1].split(",")));
 				properties.put(string[0], values);
@@ -70,7 +70,7 @@ public class ConfigManager {
 	public static <T> T getObject(Class<?> T, String s) {
 		T ret = null;
 		try {
-			ret = (T) T.newInstance();
+			ret = (T) T.getClassLoader().loadClass(s).newInstance();
 		} catch (Exception e) {
 			e.printStackTrace();
 		} 
