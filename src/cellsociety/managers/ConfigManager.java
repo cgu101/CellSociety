@@ -20,11 +20,18 @@ public class ConfigManager {
 	private void load() {
     	Scanner input = new Scanner(ConfigManager.class.getClassLoader().getResourceAsStream(CONFIG_FILE));
 		while(input.hasNext()) {
-			String[] string = input.nextLine().split("=");
-			List<String> values = new ArrayList<>(Arrays.asList(string[1].split(",")));
-			properties.put(string[0], values);
+			String nextLine = input.nextLine();
+			if(!nextLine.contains("#") || !nextLine.equals(null)) {
+				String[] string = nextLine.split("=");
+				List<String> values = new ArrayList<>(Arrays.asList(string[1].split(",")));
+				properties.put(string[0], values);
+			}
 		}
 		input.close();
+	}
+	
+	public static String scope(String a, String b) {	
+		return String.format("%s.%s", a, b);
 	}
 	
 	public static int getInt(String s) {
@@ -32,8 +39,8 @@ public class ConfigManager {
 	}
 	
 	public static int getInt(String s, int n) {
-		Object value = config.properties.get(s).get(0);
-		return value != null ? Integer.parseInt(value.toString()) : n;
+		List<String> value = config.properties.get(s);
+		return value != null ? Integer.parseInt(value.get(0).toString()) : n;
 	}
 	
 	public static String getString(String s) {
@@ -41,20 +48,29 @@ public class ConfigManager {
 	}
 	
 	public static String getString(String s, String n) {
-		Object value = config.properties.get(s).get(0);
-		return value != null ? value.toString() : n;
+		List<String> value = config.properties.get(s);
+		return value != null ? value.get(0).toString() : n;
 	}
 	
 	public static List<String> getStringList(String s) {
 		return config.properties.get(s);
-	}	
+	}
+	
+	public static <T> T getObject(String s) {
+		Class<?> clazz = null;
+		try {
+			clazz = Class.forName(config.properties.get(s).get(0));
+		} catch (Exception e) {
+			e.printStackTrace();
+		} 
+		return getObject(clazz, s);
+	}
 	
 	@SuppressWarnings("unchecked")
 	public static <T> T getObject(Class<?> T, String s) {
 		T ret = null;
 		try {
-			Class<?> clazz = Class.forName(config.properties.get(s).get(0));
-			ret = (T) clazz.newInstance();
+			ret = (T) T.newInstance();
 		} catch (Exception e) {
 			e.printStackTrace();
 		} 
