@@ -63,7 +63,7 @@ public class ConfigManager {
 		} catch (Exception e) {
 			e.printStackTrace();
 		} 
-		return getObject(clazz, s);
+		return getObject(clazz, config.properties.get(s).get(0));
 	}
 	
 	@SuppressWarnings("unchecked")

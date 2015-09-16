@@ -5,7 +5,7 @@ import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 
-public class FireGrid extends AbstractGrid {
+public class WatorWorldGrid extends AbstractGrid {
 	@Override
 	protected void init() {
 		WIDTH = ConfigManager.getInt(ConfigManager.scope(this.getClass().getName(), "width"), 800);

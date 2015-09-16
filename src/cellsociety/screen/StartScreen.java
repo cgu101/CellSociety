@@ -4,24 +4,24 @@ import java.util.ArrayList;
 import java.util.List;
 
 import cellsociety.managers.ConfigManager;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
+import javafx.scene.input.KeyCode;
 import javafx.scene.text.Font;
 import javafx.scene.text.Text;
 
 public class StartScreen extends AbstractScreen {
-	private int WIDTH;
-	private int HEIGHT;
 	private List<Icon> iconList;
+	private Icon selected;
 	private Text titleBox;
-	private String titleName = "";
 	private ComboBox<String> xmlLoader;
 	private Button goButton;
-	private boolean isDone = false;
 
 	@Override
 	protected void init() {
@@ -33,7 +33,7 @@ public class StartScreen extends AbstractScreen {
 		initTitle();
 		initXmlList();
 		initGoButton();
-		this.nextScreen = null;
+		click(iconList.get(0));
 	}
 
 	private void initIconList() {
@@ -64,12 +64,42 @@ public class StartScreen extends AbstractScreen {
 		xmlLoader.setVisibleRowCount(3);
 		root.getChildren().add(xmlLoader);
 	}
-	
+
 	private void initGoButton() {
 		goButton = new Button("Go");
 		goButton.setLayoutX(ConfigManager.getInt(ConfigManager.scope(this.getClass().getName(), "go-x")));
 		goButton.setLayoutY(ConfigManager.getInt(ConfigManager.scope(this.getClass().getName(), "go-y")));
 		root.getChildren().add(goButton);
+	}
+
+	private void handleKeyInput(KeyCode code) {
+		int index = iconList.indexOf(selected);
+		switch (code) {
+		case RIGHT:
+			if (index < iconList.size() - 1) {
+				index++;
+			}
+			click(iconList.get(index));
+			break;
+		case LEFT:
+			if (index > 0) {
+				index--;
+			}
+			click(iconList.get(index));
+			break;
+		case UP:
+			click(selected);
+			break;
+		case DOWN:
+			click(selected);
+			break;
+		default:
+		}
+	}
+
+	private void click(Icon input) {
+		input.handleHover();
+		input.handleAction();
 	}
 
 	private Text createText(String s, int yPos, int size) {
@@ -91,26 +121,28 @@ public class StartScreen extends AbstractScreen {
 	public void run() {
 		updateIcons();
 		updateButton();
+		scene.setOnKeyPressed(e -> handleKeyInput(e.getCode()));
 	}
-	
+
 	private void updateIcons() {
-		for(Icon i: iconList) {
-			i.setOnAction(e->i.handleAction());
-			i.setOnMouseEntered(e->i.handleHover());
-			i.setOnMouseExited(e->i.handleExit());
+		for (Icon i : iconList) {
+			i.setOnAction(e -> i.handleAction());
+			i.setOnMouseEntered(e -> i.handleHover());
+			i.setOnMouseExited(e -> i.handleExit());
 		}
 	}
-	
+
 	private void updateButton() {
-		goButton.setOnMouseClicked(e->handleAction());
+		goButton.setOnMouseClicked(e -> handleAction());
 	}
-	
+
 	private void handleAction() {
-		if(xmlLoader.getValue() != null) {
+		if (xmlLoader.getValue() != null) {
 			System.out.println(xmlLoader.getValue());
 		}
+		nextScreen = ConfigManager.getObject(ConfigManager.scope(this.getClass().getName(), selected.iconName));
 	}
-	
+
 	private class Icon extends Button {
 		private ImageView image;
 		private String iconName;
@@ -132,13 +164,14 @@ public class StartScreen extends AbstractScreen {
 		}
 
 		private void handleAction() {
-			if(!xmlLoader.getItems().isEmpty() && !iconName.equals(titleName)) {
+			if (!xmlLoader.getItems().isEmpty() && !iconName.equals(titleName)) {
 				xmlLoader.getItems().clear();
 				xmlLoader.getItems().addAll(xmlList);
-			} else if(xmlLoader.getItems().isEmpty()) {
+			} else if (xmlLoader.getItems().isEmpty()) {
 				xmlLoader.getItems().addAll(xmlList);
 			}
 			titleName = iconName;
+			selected = this;
 		}
 
 		private void handleHover() {
