@@ -6,6 +6,7 @@ import javafx.scene.Scene;
 public abstract class AbstractScreen {
 	protected Group root;
 	protected Scene scene;
+	protected AbstractScreen nextScreen;
 
 	public AbstractScreen() {
 		init();
