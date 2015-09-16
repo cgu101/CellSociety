@@ -17,6 +17,7 @@ public class Main extends Application {
 	public void start(Stage primaryStage) throws Exception {
 		manager = new RootManager();
 		manager.init(primaryStage);
+		primaryStage.setTitle("Cell Society");
 		
 	    KeyFrame frame = new KeyFrame(Duration.millis(MILLISECOND_DELAY),
                 e -> manager.run());

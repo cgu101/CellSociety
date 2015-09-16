@@ -1,4 +1,6 @@
-package cellsociety.screen;
+package cellsociety.grid;
+
+import cellsociety.screen.AbstractScreen;
 
 public class AbstractGrid extends AbstractScreen {
 
