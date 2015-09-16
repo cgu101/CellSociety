@@ -20,6 +20,8 @@ public class StartScreen extends AbstractScreen {
 	private Text titleBox;
 	private String titleName = "";
 	private ComboBox<String> xmlLoader;
+	private Button goButton;
+	private boolean isDone = false;
 
 	@Override
 	protected void init() {
@@ -30,6 +32,7 @@ public class StartScreen extends AbstractScreen {
 		initIconList();
 		initTitle();
 		initXmlList();
+		initGoButton();
 		this.nextScreen = null;
 	}
 
@@ -58,7 +61,15 @@ public class StartScreen extends AbstractScreen {
 		xmlLoader.setEditable(true);
 		xmlLoader.setLayoutX(ConfigManager.getInt(ConfigManager.scope(this.getClass().getName(), "xml-x")));
 		xmlLoader.setLayoutY(ConfigManager.getInt(ConfigManager.scope(this.getClass().getName(), "xml-y")));
+		xmlLoader.setVisibleRowCount(3);
 		root.getChildren().add(xmlLoader);
+	}
+	
+	private void initGoButton() {
+		goButton = new Button("Go");
+		goButton.setLayoutX(ConfigManager.getInt(ConfigManager.scope(this.getClass().getName(), "go-x")));
+		goButton.setLayoutY(ConfigManager.getInt(ConfigManager.scope(this.getClass().getName(), "go-y")));
+		root.getChildren().add(goButton);
 	}
 
 	private Text createText(String s, int yPos, int size) {
@@ -78,13 +89,28 @@ public class StartScreen extends AbstractScreen {
 
 	@Override
 	public void run() {
-		for (Icon i : iconList) {
-			i.setOnAction(e -> i.handleAction());
-			i.setOnMouseEntered(e -> i.handleHover());
-			i.setOnMouseExited(e -> i.handleExit());
+		updateIcons();
+		updateButton();
+	}
+	
+	private void updateIcons() {
+		for(Icon i: iconList) {
+			i.setOnAction(e->i.handleAction());
+			i.setOnMouseEntered(e->i.handleHover());
+			i.setOnMouseExited(e->i.handleExit());
 		}
 	}
-
+	
+	private void updateButton() {
+		goButton.setOnMouseClicked(e->handleAction());
+	}
+	
+	private void handleAction() {
+		if(xmlLoader.getValue() != null) {
+			System.out.println(xmlLoader.getValue());
+		}
+	}
+	
 	private class Icon extends Button {
 		private ImageView image;
 		private String iconName;
@@ -106,11 +132,13 @@ public class StartScreen extends AbstractScreen {
 		}
 
 		private void handleAction() {
-			titleName = iconName;
-			if (xmlLoader.getItems() != null) {
+			if(!xmlLoader.getItems().isEmpty() && !iconName.equals(titleName)) {
 				xmlLoader.getItems().clear();
+				xmlLoader.getItems().addAll(xmlList);
+			} else if(xmlLoader.getItems().isEmpty()) {
+				xmlLoader.getItems().addAll(xmlList);
 			}
-			xmlLoader.getItems().addAll(xmlList);
+			titleName = iconName;
 		}
 
 		private void handleHover() {
