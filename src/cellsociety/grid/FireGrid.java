@@ -20,24 +20,6 @@ public class FireGrid extends AbstractGrid {
 		probLightning = 0.2;
 		probGrow = 0.2;
 		myParameters = new FireParameters();
-		//this.scene = myParameters.getScene();
-		GridPane mapPane = new GridPane();
-		map = new Cell[10][10];
-		for(int row = 0; row < 10; row++){
-			for(int col = 0; col < 10; col++){
-				map[row][col] = new Cell(row, col, 20, 20, Color.GREEN, "TREE", "Fire");
-				mapPane.add(map[row][col], row, col);
-			}
-		}
-		root.getChildren().add(mapPane);
-		map[3][4].setFill(Color.RED);
-		map[3][4].setNextState("BURNING1");
-		
-		for(int i = 0; i < 10; i++){
-			run();			
-		}
-		
-		
 	}
 	
 	@Override
