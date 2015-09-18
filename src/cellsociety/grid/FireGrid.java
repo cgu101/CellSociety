@@ -25,7 +25,8 @@ public class FireGrid extends AbstractGrid {
 		myParameters = new FireParameters(this.paramPane);
 		speed = myParameters.getValue("Speed");
 	}
-
+	
+	@Override
 	protected void calculateStates() {
 		for (int row = 0; row < map.length; row++) {
 			for (int col = 0; col < map[row].length; col++) {
@@ -34,6 +35,7 @@ public class FireGrid extends AbstractGrid {
 		}
 	}
 
+	@Override
 	protected void updateStates() {
 		for (int row = 0; row < map.length; row++) {
 			for (int col = 0; col < map[row].length; col++) {
