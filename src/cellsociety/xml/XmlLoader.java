@@ -56,9 +56,6 @@ public class XmlLoader {
 			String type = eElement.getElementsByTagName("type").item(0).getTextContent();
 			String color = ConfigManager.getString(ConfigManager.scope(Cell.class.getName(), ConfigManager.scope(type, state)));
 
-			if(color.isEmpty()){
-				System.out.println("here");
-			}
 			Cell toAdd = new Cell(row*xOffset, col*yOffset, xOffset, yOffset, Paint.valueOf(color), state, type);
 			map[row][col] = toAdd;
 			mapPane.add(toAdd, col, row);
