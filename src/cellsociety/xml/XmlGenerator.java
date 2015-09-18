@@ -1,6 +1,5 @@
 package cellsociety.xml;
 
-import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 import java.util.HashMap;
@@ -24,10 +23,12 @@ public class XmlGenerator  {
 	private String className;
 	private PrintWriter pw;
 	
-	public XmlGenerator(String s, String type)  throws Exception {
-		this.type = type;
-		pw = new PrintWriter("data/" + s);
-		init(type);
+	public XmlGenerator(String s, String type) {
+		try {
+			this.type = type;
+			pw = new PrintWriter("data/" + s);
+			init(type);
+		} catch (FileNotFoundException e) {};
 	}
 	
 	protected void init() {
@@ -132,7 +133,7 @@ public class XmlGenerator  {
 		}
 	}
 	
-	public static void main(String...args) throws Exception {	
+	public static void main(String...args) {	
 		XmlGenerator r = new XmlGenerator("test3.xml", "Fire");
 		r.printXml();
 	}
