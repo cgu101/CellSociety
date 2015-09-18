@@ -13,25 +13,24 @@ public class SegregationGrid extends AbstractGrid {
 	private boolean satisfied;
 	private LinkedList<Cell> emptyList;
 	
-	public SegregationGrid(String s) {
+	public SegregationGrid(String input) {
+		super(input);
 		buildList();
 	}
 	
 	@Override
 	protected void init() {
-		similar = 0.7;
+		super.init();
+		similar = 0.5;
 		satisfied = false;
-		makeScene();
 		//myParameters = new SegregationParameters();
 
 	}
 	
 	@Override
 	public void run() {
-//		if(!satisfied) {
-//			gridStatus();
-//			gridUpdate();
-//		}
+		calculateStates();
+		updateStates();
 	}
 	
 	private void buildList() {
@@ -45,11 +44,11 @@ public class SegregationGrid extends AbstractGrid {
 		}
 	}
 	
-	private void gridStatus() {
+	private void calculateStates() {
 		for(int row = 0; row < map.length; row++){
-			for(int col = 0; col < map[row].length; col++){ 
-				if(map[row][col].getCurrentState().equals("empty")) {
-					Map<String, Integer> gridStats = getNeighbors(map[row][col]);
+			for(int col = 0; col < map[0].length; col++){ 
+				if(!map[row][col].getCurrentState().equals("empty")) {
+					Map<String, Integer> gridStats = getNeighbors(map[row][col], row, col);
 					int val1=0; int val2=0;
 					for(String s: gridStats.keySet()) {
 						if(s.equals(map[row][col].getCurrentState())) {
@@ -60,20 +59,23 @@ public class SegregationGrid extends AbstractGrid {
 					}
 					
 					if((double) val1/(val1+val2) < similar) {
-						emptyList.pop().setNextState(map[row][col].getCurrentState());
-						map[row][col].setNextState("empty");
+						if(emptyList.getFirst().getNextState() == null) {
+							emptyList.pop().setNextState(map[row][col].getCurrentState());
+							map[row][col].setNextState("empty");
+							emptyList.addLast(map[row][col]);
+						}
 					}
 				}
 			}
 		}
 	}
 	
-	private HashMap<String, Integer> getNeighbors(Cell c) {
+	private HashMap<String, Integer> getNeighbors(Cell c, int row, int col) {
 		HashMap<String, Integer> ret = new HashMap<String, Integer>();
 		for(int i=-1; i <2; i++) {
 			for(int j=-1; j<2; j++) {
 				if(i != 0 && j != 0) {
-					placeObject(i, j, ret);
+					placeObject(i+row, j+col, ret);
 				}
 			}
 		}
@@ -92,10 +94,12 @@ public class SegregationGrid extends AbstractGrid {
 		}
 	}
 	
-	private void gridUpdate() {
+	private void updateStates() {
 		for(int row = 0; row < map.length; row++){
 			for(int col = 0; col < map[row].length; col++){ 
-				map[row][col].changeState();
+				if(map[row][col].getNextState() != null) {
+					map[row][col].changeState();
+				}
 			}
 		}
 	}
