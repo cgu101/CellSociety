@@ -69,9 +69,9 @@ public abstract class AbstractGrid extends AbstractScreen {
 		}
 	}
 
-	protected abstract void calculateStates();
+	abstract protected void calculateStates();
 
-	protected abstract void updateStates();
+	abstract protected void updateStates();
 
 	protected void done() {
 		nextScreen = ConfigManager.getObject(AbstractScreen.class, ConfigManager.getString("startScreen"));

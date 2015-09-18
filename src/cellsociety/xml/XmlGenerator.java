@@ -9,7 +9,7 @@ public class XmlGenerator {
 
 	private int rows = 30;
 	private int cols = 30;
-	private String type = "Fire";
+	private String type = "Segregation";
 	private PrintWriter pw;
 
 	public XmlGenerator(String s) throws Exception {
@@ -19,9 +19,7 @@ public class XmlGenerator {
 	public void printXml() {
 		Map<String, String> vals = new HashMap<String, String>();
 		vals.put("Speed", "7");
-		vals.put("ProbCatch", "0.6");
-		vals.put("ProbLightning", "0.2");
-		vals.put("ProbGrow", "0.05");
+		vals.put("Satisfied", "0.6");
 		pw.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
 		pw.println("<file>");
 		printGlobal();
@@ -63,17 +61,17 @@ public class XmlGenerator {
 
 	private String getRandomState() {
 		double rand = Math.random();
-		if (rand > .95) {
-			return "fire";
-		} else if (rand > .5) {
-			return "earth";
+		if(rand > .5) {
+			return "red";
+		} else if (rand > .2){
+			return "blue";
 		} else {
-			return "tree";
+			return "empty";
 		}
 	}
-
-	public static void main(String... args) throws Exception {
-		XmlGenerator r = new XmlGenerator("data/test1.xml");
+	
+	public static void main(String...args) throws Exception {	
+		XmlGenerator r = new XmlGenerator("data/test2.xml");
 		r.printXml();
 	}
 }
