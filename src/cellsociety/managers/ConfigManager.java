@@ -7,6 +7,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
 
+import cellsociety.grid.AbstractGrid;
+
 public class ConfigManager {
 	private static final String CONFIG_FILE = "config.properties";
 	private static final ConfigManager config = new ConfigManager();
@@ -80,6 +82,16 @@ public class ConfigManager {
 		T ret = null;
 		try {
 			ret = (T) T.getClassLoader().loadClass(s).newInstance();
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+		return ret;
+	}
+
+	public static AbstractGrid getAbstractGrid(String s, Object...args) {
+		AbstractGrid ret = null;
+		try {
+			ret = (AbstractGrid) AbstractGrid.class.getClassLoader().loadClass(s).getConstructor(String.class).newInstance(args);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
