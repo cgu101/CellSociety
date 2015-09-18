@@ -22,34 +22,22 @@ public class FireGrid extends AbstractGrid {
 	@Override
 	protected void init() {
 		super.init();
-		probCatch = 0.6;
-		probLightning = 0.2;
-		probGrow = 0.2;
 		myParameters = new FireParameters(this.paramPane);
+		speed = myParameters.getValue("Speed");
 	}
 
-	@Override
-	public void run() {
-		super.run();
-		updateStates();
-
-	}
-
-	private void updateStates() {
+	protected void calculateStates() {
 		for (int row = 0; row < map.length; row++) {
 			for (int col = 0; col < map[row].length; col++) {
 				changeState(map[row][col], row, col);
 			}
 		}
+	}
+
+	protected void updateStates() {
 		for (int row = 0; row < map.length; row++) {
 			for (int col = 0; col < map[row].length; col++) {
-				System.out.println(
-						"\nupdate " + map[row][col].getCurrentState() + " --> " + map[row][col].getNextState());
-				if (map[row][col].getCurrentState().equals("fire")) {
-					System.out.println("here");
-				}
 				map[row][col].changeState();
-				System.out.print("--> " + map[row][col].getCurrentState());
 			}
 		}
 	}
@@ -117,4 +105,11 @@ public class FireGrid extends AbstractGrid {
 		return count;
 	}
 
+	protected void reset() {
+		speed = myParameters.getValue("Speed");
+		probCatch = myParameters.getValue("ProbCatch");
+		probLightning = myParameters.getValue("ProbLightning");
+		probGrow = myParameters.getValue("ProbGrow");
+		super.reset();
+	}
 }

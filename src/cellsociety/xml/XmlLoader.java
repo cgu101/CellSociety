@@ -64,7 +64,7 @@ public class XmlLoader {
 	}
 	
 	public NodeList getParams() {
-		return doc.getElementsByTagName("parameter");
+		return doc.getElementsByTagName("params");
 	}
 
 }

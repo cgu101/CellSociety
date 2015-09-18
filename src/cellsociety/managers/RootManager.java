@@ -14,6 +14,7 @@ public class RootManager {
 				ConfigManager.getString(ConfigManager.scope(this.getClass().getName(), "startScreen")));
 		stage.setScene(currentScreen.getScene());
 		stage.show();
+		stage.setResizable(false);
 	}
 
 	public void run() {

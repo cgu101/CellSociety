@@ -9,7 +9,7 @@ import javafx.util.Duration;
 
 public class Main extends Application {
 	
-	private static final int FRAMES_PER_SECOND = 2;
+	private static final int FRAMES_PER_SECOND = 60;
 	private static final double MILLISECOND_DELAY = 1000/FRAMES_PER_SECOND;
 	private RootManager manager;
 	

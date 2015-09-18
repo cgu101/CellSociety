@@ -16,6 +16,8 @@ public abstract class AbstractGrid extends AbstractScreen {
 	protected GridPane paramPane;
 	protected XmlLoader myLoader;
 	protected AbstractParameters myParameters;
+	protected double speed;
+	protected int timer = 0;
 
 	public AbstractGrid(String input) {
 		loadXml(input);
@@ -23,17 +25,21 @@ public abstract class AbstractGrid extends AbstractScreen {
 	}
 
 	public void makeScene() {
-		WIDTH = (int) (mapPane.getBoundsInLocal().getWidth() + ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "paramWidth")));
+		WIDTH = (int) (mapPane.getBoundsInLocal().getWidth()
+				+ ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "paramWidth")));
 		HEIGHT = (int) (mapPane.getBoundsInLocal().getHeight());
 		scene = new Scene(root, WIDTH, HEIGHT);
 		root.getChildren().add(mapPane);
-		paramPane.setLayoutX(mapPane.getBoundsInLocal().getWidth() +  ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "offset")));
+		paramPane.setLayoutX(mapPane.getBoundsInLocal().getWidth()
+				+ ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "offset")));
 		root.getChildren().add(paramPane);
+		reset();
 	}
 
 	public void loadXml(String file) {
 		myLoader = new XmlLoader(file);
 		map = myLoader.buildGrid(mapPane);
+		myParameters.setValues(myLoader.getParams());
 	}
 
 	@Override
@@ -45,12 +51,34 @@ public abstract class AbstractGrid extends AbstractScreen {
 
 	@Override
 	public void run() {
-		if (myParameters.isDone()){
-			nextScreen = ConfigManager.getObject("startScreen");
+		speed = myParameters.getValue("Speed");
+		if (timer == 0) {
+			if (myParameters.isDone()) {
+				nextScreen = ConfigManager.getObject("startScreen");
+			} else if (myParameters.isReset()) {
+				reset();
+			}
+			calculateStates();
+			timer++;
+		} else if (timer >= (int) ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "time"))
+				/ this.speed) {
+			updateStates();
+			timer = 0;
+		} else {
+			timer++;
 		}
 	}
 
+	protected abstract void calculateStates();
+
+	protected abstract void updateStates();
+
 	protected void done() {
 		nextScreen = ConfigManager.getObject(AbstractScreen.class, ConfigManager.getString("startScreen"));
+	}
+
+	protected void reset() {
+		map = myLoader.buildGrid(mapPane);
+		myParameters.setReset(false);
 	}
 }

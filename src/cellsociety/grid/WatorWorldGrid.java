@@ -24,4 +24,22 @@ public class WatorWorldGrid extends AbstractGrid {
 		});
 		root.getChildren().add(back);
 	}
+
+	@Override
+	protected void calculateStates() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void updateStates() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	protected void reset() {
+		// TODO Auto-generated method stub
+		
+	}
 }
