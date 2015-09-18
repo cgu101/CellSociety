@@ -1,7 +1,6 @@
 package cellsociety.cell;
 
 import cellsociety.managers.ConfigManager;
-import javafx.scene.paint.Color;
 import javafx.scene.paint.Paint;
 import javafx.scene.shape.Rectangle;
 
@@ -11,12 +10,12 @@ public class Cell extends Rectangle {
 	private String nextState;
 	private String type;
 	
-	public Cell(int x, int y, int height, int width, Paint color, String state, String type) {
+	public Cell(int x, int y, int height, int width, Paint paint, String state, String type) {
 		setX(x);
 		setY(y);
 		setWidth(width);
 		setHeight(height);
-		setFill(color);
+		setFill(paint);
 		
 		currentState = state;
 		nextState = null;
