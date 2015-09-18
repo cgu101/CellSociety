@@ -1,7 +1,9 @@
 package cellsociety.grid;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.LinkedList;
+import java.util.List;
 import java.util.Map;
 
 import cellsociety.cell.Cell;
@@ -12,6 +14,7 @@ public class SegregationGrid extends AbstractGrid {
 	private double similar;
 	private boolean satisfied;
 	private LinkedList<Cell> emptyList;
+	private List<Cell> emptyList1;
 	
 	public SegregationGrid(String input) {
 		super(input);
@@ -21,7 +24,7 @@ public class SegregationGrid extends AbstractGrid {
 	@Override
 	protected void init() {
 		super.init();
-		similar = 0.5;
+		similar = 0.8;
 		satisfied = false;
 		//myParameters = new SegregationParameters();
 
@@ -35,10 +38,12 @@ public class SegregationGrid extends AbstractGrid {
 	
 	private void buildList() {
 		emptyList = new LinkedList<Cell>();
+		emptyList1 = new ArrayList<Cell>();
 		for(int row = 0; row < map.length; row++){
 			for(int col = 0; col < map[row].length; col++){ 
 				if(map[row][col].getCurrentState().equals("empty")) {
 					emptyList.add(map[row][col]);
+					emptyList1.add(map[row][col]);
 				}
 			}
 		}
@@ -58,11 +63,18 @@ public class SegregationGrid extends AbstractGrid {
 					}
 					
 					if((double) val1/(val1+val2) < similar) {
-						if(emptyList.getFirst().getNextState() == null) {
-							emptyList.pop().setNextState(map[row][col].getCurrentState());
+						int rand = (int) (Math.random()*emptyList1.size());
+						if(emptyList1.get(rand).getNextState() == null) {
+							emptyList1.get(rand).setNextState(map[row][col].getCurrentState());
+							emptyList1.remove(rand);
 							map[row][col].setNextState("empty");
-							emptyList.addLast(map[row][col]);
+							emptyList1.add(map[row][col]);
 						}
+//						if(emptyList.getFirst().getNextState() == null) {							
+//							emptyList.pop().setNextState(map[row][col].getCurrentState());
+//							map[row][col].setNextState("empty");
+//							emptyList.addLast(map[row][col]);
+//						}
 					}
 				}
 			}
