@@ -36,7 +36,7 @@ public class XmlLoader {
 	
 	private void setOffsets() {		
 		int width = ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "mapWidth"));
-		int height = ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "height"));
+		int height = ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "mapHeight"));
 		rows = Integer.parseInt(doc.getElementsByTagName("totRows").item(0).getTextContent());
 		cols = Integer.parseInt(doc.getElementsByTagName("totCols").item(0).getTextContent());
 		xOffset = Math.min(ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "cellWidth")), width/rows);

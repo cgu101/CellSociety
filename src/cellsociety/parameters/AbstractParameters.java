@@ -10,11 +10,14 @@ import javafx.beans.value.ObservableValue;
 import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.control.Button;
 import javafx.scene.control.Label;
 import javafx.scene.control.Slider;
 import javafx.scene.control.TextField;
+import javafx.scene.layout.GridPane;
 import javafx.scene.layout.HBox;
 import javafx.scene.layout.Pane;
+import javafx.scene.layout.StackPane;
 import javafx.scene.layout.VBox;
 import javafx.scene.text.Font;
 
@@ -23,16 +26,15 @@ public abstract class AbstractParameters {
 	protected int WIDTH = 250;
 	protected int HEIGHT = 500;
 
-	protected Scene paramScene;
-	protected Group root;
+	protected GridPane pane;
 	protected List<Toggle> sliderList;
 	protected HashMap<String, Double> values;
 	protected Font font = Font.loadFont(getClass().getClassLoader().getResourceAsStream("SECRCODE.TTF"),
 			ConfigManager.getInt(ConfigManager.scope(this.getClass().getName(), "FontSize")));
+	protected boolean done = false;
 
-	public AbstractParameters() {
-		this.root = new Group();
-		this.paramScene = new Scene(root, WIDTH, HEIGHT);
+	public AbstractParameters(GridPane pane) {
+		this.pane = pane;
 		this.sliderList = new ArrayList<Toggle>();
 		this.values = new HashMap<String, Double>();
 		init();
@@ -40,26 +42,30 @@ public abstract class AbstractParameters {
 
 	protected void init() {
 		List<String> sliderNames = ConfigManager.getStringList(ConfigManager.scope(this.getClass().getName(), "names"));
-		double yOffset = 0;
+		VBox paneBox = new VBox();
 		for (String curr : sliderNames) {
 			List<Double> sliderValues = ConfigManager
 					.getDoubleList(ConfigManager.scope(this.getClass().getName(), curr));
 			Toggle nextToggle = new Toggle(curr, sliderValues.get(0), sliderValues.get(1), sliderValues.get(2));
 			values.put(curr, sliderValues.get(0));
-			nextToggle.setLayoutX(ConfigManager.getInt(ConfigManager.scope(this.getClass().getName(), "x")));
-			yOffset += ConfigManager.getInt(ConfigManager.scope(this.getClass().getName(), "y"));
-			nextToggle.setLayoutY(yOffset);
 			sliderList.add(nextToggle);
-			root.getChildren().add(nextToggle);
+			paneBox.getChildren().add(nextToggle);
 		}
-	}
+		Button back = new Button("END SIMULATION");
+		back.setOnAction((event) -> {
+			done = true;
+		});
+		paneBox.getChildren().add(back);
+		pane.add(paneBox, 0, 0);
 
-	public Scene getScene() {
-		return paramScene;
 	}
 
 	public double getValue(String input) {
 		return values.get(input);
+	}
+
+	public boolean isDone() {
+		return done;
 	}
 
 	protected class Toggle extends VBox {
@@ -108,10 +114,5 @@ public abstract class AbstractParameters {
 				valueField.setText(String.format("%.2f", newVal));
 			});
 		}
-
-		protected String getName() {
-			return this.name;
-		}
-
 	}
 }

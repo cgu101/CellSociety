@@ -6,6 +6,10 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 
 public class TestGrid extends AbstractGrid {
+	public TestGrid(String input) {
+		super(input);
+	}
+
 	@Override
 	protected void init() {
 		WIDTH = ConfigManager.getInt(ConfigManager.scope(this.getClass().getName(), "width"), 800);

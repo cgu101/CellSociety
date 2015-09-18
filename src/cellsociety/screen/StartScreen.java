@@ -142,8 +142,7 @@ public class StartScreen extends AbstractScreen {
 	private void handleAction() {
 		if (xmlLoader.getValue() != null) {
 			AbstractGrid newScreen = ConfigManager
-					.getObject(ConfigManager.scope(this.getClass().getName(), selected.iconName));
-			newScreen.loadXml(xmlLoader.getValue());
+					.getAbstractGrid(ConfigManager.getString(ConfigManager.scope(this.getClass().getName(), selected.iconName)), xmlLoader.getValue());
 			nextScreen = newScreen;
 		} else {
 			Alert uhoh = new Alert(AlertType.ERROR);

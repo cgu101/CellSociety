@@ -8,47 +8,48 @@ import cellsociety.parameters.AbstractParameters;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
-import javafx.scene.layout.StackPane;
 
 public abstract class AbstractGrid extends AbstractScreen {
 
 	protected Cell[][] map;
 	protected GridPane mapPane;
-	protected StackPane paramPane;
+	protected GridPane paramPane;
 	protected XmlLoader myLoader;
 	protected AbstractParameters myParameters;
-	
-	public AbstractGrid() {
+
+	public AbstractGrid(String input) {
+		loadXml(input);
 		makeScene();
 	}
-	
-	public void makeScene(){
-		root = new Group();
-		WIDTH = ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "mapWidth"), 600)
-				+ ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "paramWidth"), 300);
-		HEIGHT = ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "height"), 600);
-		scene = new Scene(root, WIDTH, HEIGHT);	
-		mapPane = new GridPane();
-		paramPane = new StackPane();
+
+	public void makeScene() {
+		WIDTH = (int) (mapPane.getBoundsInLocal().getWidth() + ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "paramWidth")));
+		HEIGHT = (int) (mapPane.getBoundsInLocal().getHeight());
+		scene = new Scene(root, WIDTH, HEIGHT);
+		root.getChildren().add(mapPane);
+		paramPane.setLayoutX(mapPane.getBoundsInLocal().getWidth() +  ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "offset")));
+		root.getChildren().add(paramPane);
 	}
-	
+
 	public void loadXml(String file) {
 		myLoader = new XmlLoader(file);
 		map = myLoader.buildGrid(mapPane);
-		root.getChildren().add(mapPane);
 	}
 
 	@Override
 	protected void init() {
-		
+		root = new Group();
+		mapPane = new GridPane();
+		paramPane = new GridPane();
 	}
 
 	@Override
 	public void run() {
-		// TODO Auto-generated method stub
-
+		if (myParameters.isDone()){
+			nextScreen = ConfigManager.getObject("startScreen");
+		}
 	}
-	
+
 	protected void done() {
 		nextScreen = ConfigManager.getObject(AbstractScreen.class, ConfigManager.getString("startScreen"));
 	}
