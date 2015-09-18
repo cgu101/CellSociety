@@ -19,9 +19,7 @@ public class XmlGenerator {
 	public void printXml() {
 		Map<String, String> vals = new HashMap<String, String>();
 		vals.put("Speed", "7");
-		vals.put("ProbCatch", "0.6");
-		vals.put("ProbLightning", "0.2");
-		vals.put("ProbGrow", "0.05");
+		vals.put("Satisfied", "0.6");
 		pw.println("<?xml version=\"1.0\" encoding=\"UTF-8\"?>");
 		pw.println("<file>");
 		printGlobal();
