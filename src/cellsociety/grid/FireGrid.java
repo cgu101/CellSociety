@@ -4,45 +4,29 @@ import java.util.Random;
 
 import cellsociety.cell.Cell;
 import cellsociety.parameters.FireParameters;
-import javafx.scene.layout.GridPane;
-import javafx.scene.paint.Color;
+
 
 public class FireGrid extends AbstractGrid {
 	private Double probCatch;
 	private Double probGrow;
 	private Double probLightning;
-	private boolean stillAFire;
 	
 	@Override
 	protected void init() {
-		makeScene();
 		probCatch = 0.6;
 		probLightning = 0.2;
-		probGrow = 0.2;
+		probGrow = 0.0;
 		myParameters = new FireParameters();
 		//this.scene = myParameters.getScene();
-		GridPane mapPane = new GridPane();
-		map = new Cell[10][10];
-		for(int row = 0; row < 10; row++){
-			for(int col = 0; col < 10; col++){
-				map[row][col] = new Cell(row, col, 20, 20, Color.GREEN, "TREE", "Fire");
-				mapPane.add(map[row][col], row, col);
-			}
-		}
-		root.getChildren().add(mapPane);
-		map[3][4].setFill(Color.RED);
-		map[3][4].setNextState("BURNING1");
-		
-		for(int i = 0; i < 10; i++){
-			run();			
-		}
-		
-		
 	}
 	
 	@Override
 	public void run(){
-		stillAFire = false;
+		updateStates();
+		
+	}
+	
+	private void updateStates() {
 		for(int row = 0; row < map.length; row++){
 			for(int col = 0; col < map[row].length; col++){
 				changeState(map[row][col], row,col);
@@ -50,35 +34,39 @@ public class FireGrid extends AbstractGrid {
 		}
 		for(int row = 0; row < map.length; row++){
 			for(int col = 0; col < map[row].length; col++){
-				map[row][col].setToNextState();
-				if(map[row][col].getCurrentState() == "BURNING1"){
-					map[row][col].setFill(Color.RED);
+				System.out.println("\nupdate " + map[row][col].getCurrentState() + " --> " + map[row][col].getNextState());
+				if(map[row][col].getCurrentState().equals("fire")){
+					System.out.println("here");
 				}
+				map[row][col].changeState();
+				System.out.print("--> " + map[row][col].getCurrentState());
 			}
 		}
 	}
-	
+
 	private void changeState(Cell cell, int row, int col){
 		String currentState = cell.getCurrentState();
-		if(currentState == "TREE"){
+		if(currentState.equals("tree")){
 			catchFire(cell,row, col);
 		}
-		else if(currentState == "EMPTY"){
-			treeGrowth(row,col);
+		else if(currentState.equals("earth")){
+			treeGrowth(cell,row,col);
 		}
-		else if(currentState == "BURNING1"){
-			cell.setNextState("BURNING2");
-			stillAFire = true;
+		else if(currentState.equals("fire")){
+			cell.setNextState("burnt");
 		}
-		else if(currentState == "BURNING2"){
-			cell.setNextState("EMPTY");
+		else if(currentState.equals("burnt")){
+			cell.setNextState("earth");
 		}
 	}
 
-	private void treeGrowth(int row, int col) {
+	private void treeGrowth(Cell cell, int row, int col) {
 		Random rand = new Random();
 		if(rand.nextDouble() <= probGrow){
-			map[row][col].setNextState("TREE");
+			cell.setNextState("tree");
+		}
+		else{
+			cell.setNextState(cell.getCurrentState());
 		}
 	}
 
@@ -87,10 +75,11 @@ public class FireGrid extends AbstractGrid {
 		Double fireChance = (1-Math.pow((1-probCatch), neighborFires)) + (probLightning);
 		
 		Random rand = new Random();
-		if(cell.getCurrentState() == "TREE" && (rand.nextDouble() <= fireChance)){
-			System.out.println(neighborFires + "neighbors" + fireChance + "chance");
-			cell.setNextState("BURNING1");
-			stillAFire = true;
+		if(rand.nextDouble() <= fireChance){
+			cell.setNextState("fire");
+		}
+		else{
+			cell.setNextState(cell.getCurrentState());
 		}
 	}
 
@@ -98,22 +87,22 @@ public class FireGrid extends AbstractGrid {
 		//North
 		int count = 0;
 		if(row-1 >= 0){
-			if(map[row-1][col].getCurrentState() == "BURNING1" || map[row-1][col].getCurrentState() == "BURNING2" )
+			if(map[row-1][col].getCurrentState().equals("fire") || map[row-1][col].getCurrentState().equals("burnt") )
 				count++;
 		}
 		//South
 		if(row+1 < map.length){
-			if(map[row+1][col].getCurrentState() == "BURNING1" || map[row+1][col].getCurrentState() == "BURNING2" )
+			if(map[row+1][col].getCurrentState().equals("fire") || map[row+1][col].getCurrentState().equals("burnt") )
 				count++;
 		}
 		// West
 		if(col-1 >= 0){
-			if(map[row][col-1].getCurrentState() == "BURNING1" || map[row][col-1].getCurrentState() == "BURNING2" )
+			if(map[row][col-1].getCurrentState().equals("fire") || map[row][col-1].getCurrentState().equals("burnt") )
 				count++;
 		}
 		//East
 		if(col+1 < map[row].length) {
-			if(map[row][col+1].getCurrentState() == "BURNING1" || map[row][col+1].getCurrentState() == "BURNING2" )
+			if(map[row][col+1].getCurrentState().equals("fire") || map[row][col+1].getCurrentState().equals("burnt") )
 				count++;
 		}
 		return count;

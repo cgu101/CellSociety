@@ -30,12 +30,6 @@ public class Cell extends Rectangle {
 		return nextState;
 	}
 	
-
-	public void setToNextState() {
-		currentState = getNextState();
-		setNextState(null);
-	}
-	
 	public String getCurrentState() {
 		return currentState;
 	}
