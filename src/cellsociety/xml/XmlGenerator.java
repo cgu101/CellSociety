@@ -17,8 +17,8 @@ public class XmlGenerator  {
 	private HashMap<String, Integer> myStates;
 	private List<String> states;
 	private Map<String, String> myValues;
-	private int rows = 30;
-	private int cols = 30;
+	private int rows = 35;
+	private int cols = 35;
 	private String type;
 	private String className;
 	private PrintWriter pw;
@@ -55,7 +55,7 @@ public class XmlGenerator  {
 	
 	private void buildStates() {
 		states = ConfigManager.getStringList(ConfigManager.scope(ConfigManager.scope(this.getClass().getName(), type), "states"));
-		Integer d = rows*cols/states.size();
+		Integer d = rows*cols/states.size()+1;
 		myStates = new HashMap<String, Integer>();
 		for(String s: states) {
 			myStates.put(s, d);
@@ -124,17 +124,18 @@ public class XmlGenerator  {
 	}
 
 	private String getRandomState() {
-		int rand = (new Random()).nextInt(4);
+		int rand = (new Random()).nextInt(states.size());
 		if(myStates.get(states.get(rand)) > 0) {
 			myStates.put(states.get(rand), myStates.get(states.get(rand))-1);
 			return states.get(rand);
 		} else {
+			states.remove(rand);
 			return getRandomState();
 		}
 	}
 	
 	public static void main(String...args) {	
-		XmlGenerator r = new XmlGenerator("test3.xml", "Fire");
+		XmlGenerator r = new XmlGenerator("Gol1.xml", "GameOfLife");
 		r.printXml();
 	}
 }
