@@ -23,7 +23,6 @@ public class FireGrid extends AbstractGrid {
 	protected void init() {
 		super.init();
 		myParameters = new FireParameters(this.paramPane);
-		speed = myParameters.getValue("Speed");
 	}
 	
 	@Override

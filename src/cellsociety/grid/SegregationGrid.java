@@ -12,28 +12,17 @@ import cellsociety.parameters.SegregationParameters;
 public class SegregationGrid extends AbstractGrid {
 	
 	private double similar;
-	private boolean satisfied;
 	private LinkedList<Cell> emptyList;
 	private List<Cell> emptyList1;
 	
 	public SegregationGrid(String input) {
 		super(input);
-		buildList();
 	}
 	
 	@Override
 	protected void init() {
 		super.init();
-		similar = 0.8;
-		satisfied = false;
-		//myParameters = new SegregationParameters();
-
-	}
-	
-	@Override
-	public void run() {
-		calculateStates();
-		updateStates();
+		myParameters = new SegregationParameters(this.paramPane);
 	}
 	
 	private void buildList() {
@@ -121,7 +110,10 @@ public class SegregationGrid extends AbstractGrid {
 	
 	@Override
 	protected void reset() {
-		// TODO Auto-generated method stub
-		
+		speed = myParameters.getValue("Speed");
+		similar = myParameters.getValue("Similar");
+		System.out.printf("The speed is: %s, the Similarity is: %s\n", speed, similar);
+		super.reset();
+		buildList();
 	}
 }
