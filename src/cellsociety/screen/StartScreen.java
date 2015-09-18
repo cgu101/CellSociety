@@ -3,6 +3,7 @@ package cellsociety.screen;
 import java.util.ArrayList;
 import java.util.List;
 
+import cellsociety.grid.AbstractGrid;
 import cellsociety.managers.ConfigManager;
 import javafx.scene.Group;
 import javafx.scene.Scene;
@@ -138,7 +139,9 @@ public class StartScreen extends AbstractScreen {
 		if (xmlLoader.getValue() != null) {
 			System.out.println(xmlLoader.getValue());
 		}
-		nextScreen = ConfigManager.getObject(ConfigManager.scope(this.getClass().getName(), selected.iconName));
+		AbstractGrid newScreen = ConfigManager.getObject(ConfigManager.scope(this.getClass().getName(), selected.iconName));
+		newScreen.loadXml(xmlLoader.getValue());
+		nextScreen = newScreen;
 	}
 
 	private class Icon extends Button {

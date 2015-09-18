@@ -1,4 +1,4 @@
-package cellsociety.grid;
+package cellsociety.xml;
 
 import java.io.File;
 import java.io.PrintWriter;
@@ -7,8 +7,8 @@ import java.util.Map;
 
 public class XmlGenerator {
 
-	private int rows = 5;
-	private int cols = 5;
+	private int rows = 30;
+	private int cols = 30;
 	private String type = "Fire";
 	private PrintWriter pw;
 	
@@ -60,10 +60,12 @@ public class XmlGenerator {
 	
 	private String getRandomState() {
 		double rand = Math.random();
-		if(rand > .5) {
-			return "tree";
-		} else {
+		if(rand > .95) {
 			return "fire";
+		} else if (rand > .5){
+			return "earth";
+		} else {
+			return "tree";
 		}
 	}
 	

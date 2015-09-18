@@ -7,10 +7,6 @@ import javafx.scene.control.Button;
 
 public class FireGrid extends AbstractGrid {
 	
-	public FireGrid() {
-		super();
-	}
-	
 	@Override
 	protected void init() {
 		WIDTH = ConfigManager.getInt(ConfigManager.scope(this.getClass().getName(), "width"), 800);
