@@ -23,10 +23,7 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 
 public abstract class AbstractParameters {
-
-	protected int WIDTH = 250;
-	protected int HEIGHT = 500;
-
+	
 	protected GridPane pane;
 	protected List<Toggle> ToggleList;
 	protected HashMap<String, Toggle> ToggleMap;
