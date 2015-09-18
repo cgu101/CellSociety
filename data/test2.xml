@@ -16,43 +16,43 @@
         <square>
             <row>0</row>
             <col>1</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>2</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>3</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>4</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>5</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>6</col>
             <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>0</row>
-            <col>7</col>
+            <col>2</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>3</col>
             <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>4</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>5</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>6</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>7</col>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -64,17 +64,17 @@
         <square>
             <row>0</row>
             <col>9</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>10</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>0</row>
+            <col>10</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>0</row>
             <col>11</col>
             <state>blue</state>
             <type>Segregation</type>
@@ -88,73 +88,73 @@
         <square>
             <row>0</row>
             <col>13</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>14</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>15</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>16</col>
             <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>0</row>
-            <col>17</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>18</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>19</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>20</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>21</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>22</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>23</col>
+            <col>14</col>
             <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>0</row>
-            <col>24</col>
+            <col>15</col>
             <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>16</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>17</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>18</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>19</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>20</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>21</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>22</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>23</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>24</col>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -196,17 +196,17 @@
         <square>
             <row>1</row>
             <col>1</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>2</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>1</row>
+            <col>2</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
             <col>3</col>
             <state>blue</state>
             <type>Segregation</type>
@@ -220,83 +220,83 @@
         <square>
             <row>1</row>
             <col>5</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>6</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>7</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>8</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>9</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>10</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>11</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>12</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>13</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>14</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>1</row>
-            <col>15</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>16</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>17</col>
+            <col>6</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>1</row>
+            <col>7</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>8</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>9</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>10</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>11</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>12</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>13</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>14</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>15</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>16</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>17</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
             <col>18</col>
             <state>blue</state>
             <type>Segregation</type>
@@ -310,41 +310,41 @@
         <square>
             <row>1</row>
             <col>20</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>21</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>22</col>
             <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>1</row>
-            <col>23</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>24</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>25</col>
+            <col>21</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>1</row>
+            <col>22</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>23</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>24</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>25</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>1</row>
             <col>26</col>
             <state>blue</state>
             <type>Segregation</type>
@@ -358,31 +358,31 @@
         <square>
             <row>1</row>
             <col>28</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>1</row>
             <col>29</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>2</row>
             <col>0</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>1</col>
             <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>2</row>
+            <col>1</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>2</row>
             <col>2</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -394,107 +394,107 @@
         <square>
             <row>2</row>
             <col>4</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>5</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>6</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>7</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>8</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>9</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>10</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>2</row>
-            <col>11</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>12</col>
+            <col>5</col>
             <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>2</row>
-            <col>13</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>14</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>15</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>16</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>17</col>
+            <col>6</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>2</row>
-            <col>18</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>19</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>20</col>
+            <col>7</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>2</row>
+            <col>8</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>9</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>10</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>11</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>12</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>13</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>14</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>15</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>16</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>17</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>18</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>19</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>20</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>2</row>
             <col>21</col>
             <state>red</state>
             <type>Segregation</type>
@@ -502,17 +502,17 @@
         <square>
             <row>2</row>
             <col>22</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>23</col>
             <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>2</row>
+            <col>23</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>2</row>
             <col>24</col>
             <state>red</state>
             <type>Segregation</type>
@@ -520,13 +520,13 @@
         <square>
             <row>2</row>
             <col>25</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>2</row>
             <col>26</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -538,19 +538,19 @@
         <square>
             <row>2</row>
             <col>28</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>2</row>
             <col>29</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
             <col>0</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -562,13 +562,13 @@
         <square>
             <row>3</row>
             <col>2</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
             <col>3</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -580,19 +580,19 @@
         <square>
             <row>3</row>
             <col>5</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
             <col>6</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
             <col>7</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -604,25 +604,25 @@
         <square>
             <row>3</row>
             <col>9</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
             <col>10</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
             <col>11</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
             <col>12</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -634,19 +634,19 @@
         <square>
             <row>3</row>
             <col>14</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
             <col>15</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
             <col>16</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -664,61 +664,61 @@
         <square>
             <row>3</row>
             <col>19</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
             <col>20</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>3</row>
-            <col>21</col>
             <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
+            <col>21</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>3</row>
             <col>22</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
             <col>23</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
             <col>24</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
             <col>25</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>3</row>
-            <col>26</col>
             <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
+            <col>26</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>3</row>
             <col>27</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>3</row>
             <col>28</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -736,7 +736,7 @@
         <square>
             <row>4</row>
             <col>1</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -748,13 +748,13 @@
         <square>
             <row>4</row>
             <col>3</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>4</row>
             <col>4</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -766,25 +766,25 @@
         <square>
             <row>4</row>
             <col>6</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>4</row>
             <col>7</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>4</row>
             <col>8</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>4</row>
             <col>9</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -802,7 +802,7 @@
         <square>
             <row>4</row>
             <col>12</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -814,19 +814,19 @@
         <square>
             <row>4</row>
             <col>14</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>4</row>
             <col>15</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>4</row>
             <col>16</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -838,13 +838,13 @@
         <square>
             <row>4</row>
             <col>18</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>4</row>
             <col>19</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -856,13 +856,13 @@
         <square>
             <row>4</row>
             <col>21</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>4</row>
             <col>22</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -874,73 +874,73 @@
         <square>
             <row>4</row>
             <col>24</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>4</row>
             <col>25</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>4</row>
-            <col>26</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>4</row>
-            <col>27</col>
             <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>4</row>
+            <col>26</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>4</row>
+            <col>27</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>4</row>
             <col>28</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>4</row>
             <col>29</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>5</row>
             <col>0</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>5</row>
             <col>1</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>5</row>
             <col>2</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>5</row>
             <col>3</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>5</row>
             <col>4</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>5</row>
             <col>5</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -952,37 +952,37 @@
         <square>
             <row>5</row>
             <col>7</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>5</row>
             <col>8</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>5</row>
             <col>9</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>5</row>
             <col>10</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>5</row>
             <col>11</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>5</row>
             <col>12</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1012,7 +1012,7 @@
         <square>
             <row>5</row>
             <col>17</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1024,13 +1024,13 @@
         <square>
             <row>5</row>
             <col>19</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>5</row>
             <col>20</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1042,13 +1042,13 @@
         <square>
             <row>5</row>
             <col>22</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>5</row>
             <col>23</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1066,13 +1066,13 @@
         <square>
             <row>5</row>
             <col>26</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>5</row>
             <col>27</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1084,7 +1084,7 @@
         <square>
             <row>5</row>
             <col>29</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1096,13 +1096,13 @@
         <square>
             <row>6</row>
             <col>1</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>6</row>
             <col>2</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1114,7 +1114,7 @@
         <square>
             <row>6</row>
             <col>4</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1126,25 +1126,25 @@
         <square>
             <row>6</row>
             <col>6</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>6</row>
-            <col>7</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>6</row>
-            <col>8</col>
             <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>6</row>
-            <col>9</col>
+            <col>7</col>
             <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>6</row>
+            <col>8</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>6</row>
+            <col>9</col>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1156,7 +1156,7 @@
         <square>
             <row>6</row>
             <col>11</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1168,19 +1168,19 @@
         <square>
             <row>6</row>
             <col>13</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>6</row>
             <col>14</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>6</row>
             <col>15</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1192,13 +1192,13 @@
         <square>
             <row>6</row>
             <col>17</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>6</row>
             <col>18</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1210,19 +1210,19 @@
         <square>
             <row>6</row>
             <col>20</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>6</row>
             <col>21</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>6</row>
             <col>22</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1234,13 +1234,13 @@
         <square>
             <row>6</row>
             <col>24</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>6</row>
             <col>25</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1258,7 +1258,7 @@
         <square>
             <row>6</row>
             <col>28</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1270,7 +1270,7 @@
         <square>
             <row>7</row>
             <col>0</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1282,31 +1282,31 @@
         <square>
             <row>7</row>
             <col>2</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>3</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>4</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>5</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>6</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1324,13 +1324,13 @@
         <square>
             <row>7</row>
             <col>9</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>10</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1348,31 +1348,31 @@
         <square>
             <row>7</row>
             <col>13</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>14</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>15</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>16</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>17</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1390,73 +1390,73 @@
         <square>
             <row>7</row>
             <col>20</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>21</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>22</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>23</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>24</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>25</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>26</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>27</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>28</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>7</row>
             <col>29</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>8</row>
             <col>0</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>8</row>
             <col>1</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1468,13 +1468,13 @@
         <square>
             <row>8</row>
             <col>3</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>8</row>
             <col>4</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1486,13 +1486,13 @@
         <square>
             <row>8</row>
             <col>6</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>8</row>
             <col>7</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1504,7 +1504,7 @@
         <square>
             <row>8</row>
             <col>9</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1522,13 +1522,13 @@
         <square>
             <row>8</row>
             <col>12</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>8</row>
             <col>13</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1540,7 +1540,7 @@
         <square>
             <row>8</row>
             <col>15</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1558,7 +1558,7 @@
         <square>
             <row>8</row>
             <col>18</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1570,25 +1570,25 @@
         <square>
             <row>8</row>
             <col>20</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>8</row>
-            <col>21</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>8</row>
+            <col>21</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>8</row>
             <col>22</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>8</row>
             <col>23</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1606,19 +1606,19 @@
         <square>
             <row>8</row>
             <col>26</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>8</row>
             <col>27</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>8</row>
             <col>28</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1630,7 +1630,7 @@
         <square>
             <row>9</row>
             <col>0</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1642,19 +1642,19 @@
         <square>
             <row>9</row>
             <col>2</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>9</row>
-            <col>3</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>9</row>
+            <col>3</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>9</row>
             <col>4</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1666,7 +1666,7 @@
         <square>
             <row>9</row>
             <col>6</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1678,19 +1678,19 @@
         <square>
             <row>9</row>
             <col>8</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>9</row>
             <col>9</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>9</row>
             <col>10</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1702,7 +1702,7 @@
         <square>
             <row>9</row>
             <col>12</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1714,19 +1714,19 @@
         <square>
             <row>9</row>
             <col>14</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>9</row>
             <col>15</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>9</row>
             <col>16</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1738,13 +1738,13 @@
         <square>
             <row>9</row>
             <col>18</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>9</row>
             <col>19</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1756,7 +1756,7 @@
         <square>
             <row>9</row>
             <col>21</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1774,7 +1774,7 @@
         <square>
             <row>9</row>
             <col>24</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1786,37 +1786,37 @@
         <square>
             <row>9</row>
             <col>26</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>9</row>
             <col>27</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>9</row>
             <col>28</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>9</row>
             <col>29</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>10</row>
             <col>0</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>10</row>
             <col>1</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1828,25 +1828,25 @@
         <square>
             <row>10</row>
             <col>3</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>10</row>
-            <col>4</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>10</row>
+            <col>4</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>10</row>
             <col>5</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>10</row>
             <col>6</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1858,7 +1858,7 @@
         <square>
             <row>10</row>
             <col>8</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1876,13 +1876,13 @@
         <square>
             <row>10</row>
             <col>11</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>10</row>
             <col>12</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1894,25 +1894,25 @@
         <square>
             <row>10</row>
             <col>14</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>10</row>
             <col>15</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>10</row>
             <col>16</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>10</row>
             <col>17</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1942,25 +1942,25 @@
         <square>
             <row>10</row>
             <col>22</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>10</row>
-            <col>23</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>10</row>
-            <col>24</col>
             <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>10</row>
+            <col>23</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>10</row>
+            <col>24</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>10</row>
             <col>25</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -1990,37 +1990,37 @@
         <square>
             <row>11</row>
             <col>0</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>11</row>
             <col>1</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>11</row>
             <col>2</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>11</row>
             <col>3</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>11</row>
             <col>4</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>11</row>
             <col>5</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2032,19 +2032,19 @@
         <square>
             <row>11</row>
             <col>7</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>11</row>
             <col>8</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>11</row>
             <col>9</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2062,13 +2062,13 @@
         <square>
             <row>11</row>
             <col>12</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>11</row>
             <col>13</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2080,31 +2080,31 @@
         <square>
             <row>11</row>
             <col>15</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>11</row>
             <col>16</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>11</row>
             <col>17</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>11</row>
             <col>18</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>11</row>
             <col>19</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2116,13 +2116,13 @@
         <square>
             <row>11</row>
             <col>21</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>11</row>
             <col>22</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2134,25 +2134,25 @@
         <square>
             <row>11</row>
             <col>24</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>11</row>
-            <col>25</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>11</row>
+            <col>25</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>11</row>
             <col>26</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>11</row>
             <col>27</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2164,13 +2164,13 @@
         <square>
             <row>11</row>
             <col>29</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>12</row>
             <col>0</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2182,7 +2182,7 @@
         <square>
             <row>12</row>
             <col>2</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2194,13 +2194,13 @@
         <square>
             <row>12</row>
             <col>4</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>12</row>
             <col>5</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2218,7 +2218,7 @@
         <square>
             <row>12</row>
             <col>8</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2236,7 +2236,7 @@
         <square>
             <row>12</row>
             <col>11</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2248,19 +2248,19 @@
         <square>
             <row>12</row>
             <col>13</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>12</row>
-            <col>14</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>12</row>
-            <col>15</col>
+            <col>14</col>
             <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>12</row>
+            <col>15</col>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2272,31 +2272,31 @@
         <square>
             <row>12</row>
             <col>17</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>12</row>
             <col>18</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>12</row>
             <col>19</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>12</row>
             <col>20</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>12</row>
             <col>21</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2308,25 +2308,25 @@
         <square>
             <row>12</row>
             <col>23</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>12</row>
-            <col>24</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>12</row>
-            <col>25</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>12</row>
-            <col>26</col>
+            <col>24</col>
             <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>12</row>
+            <col>25</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>12</row>
+            <col>26</col>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2350,37 +2350,37 @@
         <square>
             <row>13</row>
             <col>0</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>13</row>
-            <col>1</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>13</row>
-            <col>2</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>13</row>
-            <col>3</col>
             <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>13</row>
+            <col>1</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>13</row>
+            <col>2</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>13</row>
+            <col>3</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>13</row>
             <col>4</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>13</row>
             <col>5</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2398,25 +2398,25 @@
         <square>
             <row>13</row>
             <col>8</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>13</row>
             <col>9</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>13</row>
             <col>10</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>13</row>
             <col>11</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2428,13 +2428,13 @@
         <square>
             <row>13</row>
             <col>13</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>13</row>
             <col>14</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2452,13 +2452,13 @@
         <square>
             <row>13</row>
             <col>17</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>13</row>
             <col>18</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2470,7 +2470,7 @@
         <square>
             <row>13</row>
             <col>20</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2482,7 +2482,7 @@
         <square>
             <row>13</row>
             <col>22</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2494,37 +2494,37 @@
         <square>
             <row>13</row>
             <col>24</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>13</row>
             <col>25</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>13</row>
-            <col>26</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>13</row>
-            <col>27</col>
             <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>13</row>
-            <col>28</col>
+            <col>26</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>13</row>
+            <col>27</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>13</row>
+            <col>28</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>13</row>
             <col>29</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2536,13 +2536,13 @@
         <square>
             <row>14</row>
             <col>1</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>14</row>
             <col>2</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2554,13 +2554,13 @@
         <square>
             <row>14</row>
             <col>4</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>14</row>
             <col>5</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2572,7 +2572,7 @@
         <square>
             <row>14</row>
             <col>7</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2584,7 +2584,7 @@
         <square>
             <row>14</row>
             <col>9</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2596,7 +2596,7 @@
         <square>
             <row>14</row>
             <col>11</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2620,7 +2620,7 @@
         <square>
             <row>14</row>
             <col>15</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2650,25 +2650,25 @@
         <square>
             <row>14</row>
             <col>20</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>14</row>
             <col>21</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>14</row>
             <col>22</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>14</row>
             <col>23</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2686,49 +2686,49 @@
         <square>
             <row>14</row>
             <col>26</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>14</row>
             <col>27</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>14</row>
-            <col>28</col>
             <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>14</row>
-            <col>29</col>
+            <col>28</col>
             <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>14</row>
+            <col>29</col>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>15</row>
             <col>0</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>15</row>
             <col>1</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>15</row>
             <col>2</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>15</row>
             <col>3</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2746,13 +2746,13 @@
         <square>
             <row>15</row>
             <col>6</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>15</row>
             <col>7</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2764,31 +2764,31 @@
         <square>
             <row>15</row>
             <col>9</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>15</row>
             <col>10</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>15</row>
             <col>11</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>15</row>
-            <col>12</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>15</row>
+            <col>12</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>15</row>
             <col>13</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2800,31 +2800,31 @@
         <square>
             <row>15</row>
             <col>15</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>15</row>
-            <col>16</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>15</row>
-            <col>17</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>15</row>
+            <col>16</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>15</row>
+            <col>17</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>15</row>
             <col>18</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>15</row>
             <col>19</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2836,7 +2836,7 @@
         <square>
             <row>15</row>
             <col>21</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2848,7 +2848,7 @@
         <square>
             <row>15</row>
             <col>23</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2860,7 +2860,7 @@
         <square>
             <row>15</row>
             <col>25</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2872,7 +2872,7 @@
         <square>
             <row>15</row>
             <col>27</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2884,7 +2884,7 @@
         <square>
             <row>15</row>
             <col>29</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2896,13 +2896,13 @@
         <square>
             <row>16</row>
             <col>1</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>2</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2914,13 +2914,13 @@
         <square>
             <row>16</row>
             <col>4</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>5</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2932,7 +2932,7 @@
         <square>
             <row>16</row>
             <col>7</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -2944,85 +2944,85 @@
         <square>
             <row>16</row>
             <col>9</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>10</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>11</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>12</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>13</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>14</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>15</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>16</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>17</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>18</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>19</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>20</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>21</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>22</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3034,55 +3034,55 @@
         <square>
             <row>16</row>
             <col>24</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
             <col>25</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>16</row>
-            <col>26</col>
             <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
-            <col>27</col>
+            <col>26</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
-            <col>28</col>
+            <col>27</col>
             <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>16</row>
+            <col>28</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>16</row>
             <col>29</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>17</row>
             <col>0</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>17</row>
             <col>1</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>17</row>
             <col>2</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3094,19 +3094,19 @@
         <square>
             <row>17</row>
             <col>4</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>17</row>
             <col>5</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>17</row>
             <col>6</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3124,13 +3124,13 @@
         <square>
             <row>17</row>
             <col>9</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>17</row>
             <col>10</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3148,13 +3148,13 @@
         <square>
             <row>17</row>
             <col>13</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>17</row>
             <col>14</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3172,37 +3172,37 @@
         <square>
             <row>17</row>
             <col>17</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>17</row>
             <col>18</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>17</row>
             <col>19</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>17</row>
             <col>20</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>17</row>
             <col>21</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>17</row>
             <col>22</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3226,37 +3226,37 @@
         <square>
             <row>17</row>
             <col>26</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>17</row>
             <col>27</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>17</row>
             <col>28</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>17</row>
             <col>29</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>18</row>
             <col>0</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>18</row>
             <col>1</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3274,13 +3274,13 @@
         <square>
             <row>18</row>
             <col>4</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>18</row>
             <col>5</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3292,7 +3292,7 @@
         <square>
             <row>18</row>
             <col>7</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3310,55 +3310,55 @@
         <square>
             <row>18</row>
             <col>10</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>18</row>
-            <col>11</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>18</row>
-            <col>12</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>18</row>
-            <col>13</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>18</row>
-            <col>14</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>18</row>
-            <col>15</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>18</row>
-            <col>16</col>
-            <state>empty</state>
+            <col>11</col>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>18</row>
-            <col>17</col>
+            <col>12</col>
             <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>18</row>
-            <col>18</col>
+            <col>13</col>
             <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>18</row>
+            <col>14</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>18</row>
+            <col>15</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>18</row>
+            <col>16</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>18</row>
+            <col>17</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>18</row>
+            <col>18</col>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3370,7 +3370,7 @@
         <square>
             <row>18</row>
             <col>20</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3394,13 +3394,13 @@
         <square>
             <row>18</row>
             <col>24</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>18</row>
             <col>25</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3412,13 +3412,13 @@
         <square>
             <row>18</row>
             <col>27</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>18</row>
             <col>28</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3442,19 +3442,19 @@
         <square>
             <row>19</row>
             <col>2</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>19</row>
-            <col>3</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>19</row>
+            <col>3</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>19</row>
             <col>4</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3466,55 +3466,55 @@
         <square>
             <row>19</row>
             <col>6</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>19</row>
             <col>7</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>19</row>
             <col>8</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>19</row>
             <col>9</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>19</row>
             <col>10</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>19</row>
             <col>11</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>19</row>
             <col>12</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>19</row>
             <col>13</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>19</row>
             <col>14</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3526,7 +3526,7 @@
         <square>
             <row>19</row>
             <col>16</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3538,13 +3538,13 @@
         <square>
             <row>19</row>
             <col>18</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>19</row>
             <col>19</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3556,7 +3556,7 @@
         <square>
             <row>19</row>
             <col>21</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3568,13 +3568,13 @@
         <square>
             <row>19</row>
             <col>23</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>19</row>
             <col>24</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3586,31 +3586,31 @@
         <square>
             <row>19</row>
             <col>26</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>19</row>
             <col>27</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>19</row>
             <col>28</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>19</row>
             <col>29</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>20</row>
             <col>0</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3622,49 +3622,49 @@
         <square>
             <row>20</row>
             <col>2</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>20</row>
             <col>3</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>20</row>
             <col>4</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>20</row>
             <col>5</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>20</row>
             <col>6</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>20</row>
             <col>7</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>20</row>
             <col>8</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>20</row>
             <col>9</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3676,19 +3676,19 @@
         <square>
             <row>20</row>
             <col>11</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>20</row>
-            <col>12</col>
             <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>20</row>
-            <col>13</col>
+            <col>12</col>
             <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>20</row>
+            <col>13</col>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3706,7 +3706,7 @@
         <square>
             <row>20</row>
             <col>16</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3724,7 +3724,7 @@
         <square>
             <row>20</row>
             <col>19</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3748,7 +3748,7 @@
         <square>
             <row>20</row>
             <col>23</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3760,25 +3760,25 @@
         <square>
             <row>20</row>
             <col>25</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>20</row>
             <col>26</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>20</row>
             <col>27</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>20</row>
             <col>28</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3796,19 +3796,19 @@
         <square>
             <row>21</row>
             <col>1</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>21</row>
             <col>2</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>21</row>
             <col>3</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3820,7 +3820,7 @@
         <square>
             <row>21</row>
             <col>5</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3844,37 +3844,37 @@
         <square>
             <row>21</row>
             <col>9</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>21</row>
-            <col>10</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>21</row>
-            <col>11</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>21</row>
-            <col>12</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>21</row>
-            <col>13</col>
+            <col>10</col>
             <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>21</row>
-            <col>14</col>
+            <col>11</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>21</row>
+            <col>12</col>
             <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>21</row>
+            <col>13</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>21</row>
+            <col>14</col>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3886,7 +3886,7 @@
         <square>
             <row>21</row>
             <col>16</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3904,7 +3904,7 @@
         <square>
             <row>21</row>
             <col>19</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3928,19 +3928,19 @@
         <square>
             <row>21</row>
             <col>23</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>21</row>
             <col>24</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>21</row>
             <col>25</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3958,13 +3958,13 @@
         <square>
             <row>21</row>
             <col>28</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>21</row>
             <col>29</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -3976,31 +3976,31 @@
         <square>
             <row>22</row>
             <col>1</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>22</row>
             <col>2</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>22</row>
             <col>3</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>22</row>
             <col>4</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>22</row>
             <col>5</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4018,7 +4018,7 @@
         <square>
             <row>22</row>
             <col>8</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4036,25 +4036,25 @@
         <square>
             <row>22</row>
             <col>11</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>22</row>
             <col>12</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>22</row>
             <col>13</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>22</row>
             <col>14</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4066,7 +4066,7 @@
         <square>
             <row>22</row>
             <col>16</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4078,37 +4078,37 @@
         <square>
             <row>22</row>
             <col>18</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>22</row>
             <col>19</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>22</row>
-            <col>20</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>22</row>
-            <col>21</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>22</row>
-            <col>22</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>22</row>
+            <col>20</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>22</row>
+            <col>21</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>22</row>
+            <col>22</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>22</row>
             <col>23</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4120,7 +4120,7 @@
         <square>
             <row>22</row>
             <col>25</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4132,7 +4132,7 @@
         <square>
             <row>22</row>
             <col>27</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4144,13 +4144,13 @@
         <square>
             <row>22</row>
             <col>29</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>23</row>
             <col>0</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4168,7 +4168,7 @@
         <square>
             <row>23</row>
             <col>3</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4186,13 +4186,13 @@
         <square>
             <row>23</row>
             <col>6</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>23</row>
             <col>7</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4204,13 +4204,13 @@
         <square>
             <row>23</row>
             <col>9</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>23</row>
             <col>10</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4222,13 +4222,13 @@
         <square>
             <row>23</row>
             <col>12</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>23</row>
             <col>13</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4240,7 +4240,7 @@
         <square>
             <row>23</row>
             <col>15</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4252,13 +4252,13 @@
         <square>
             <row>23</row>
             <col>17</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>23</row>
             <col>18</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4270,7 +4270,7 @@
         <square>
             <row>23</row>
             <col>20</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4282,19 +4282,19 @@
         <square>
             <row>23</row>
             <col>22</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>23</row>
             <col>23</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>23</row>
             <col>24</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4306,31 +4306,31 @@
         <square>
             <row>23</row>
             <col>26</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>23</row>
             <col>27</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>23</row>
             <col>28</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>23</row>
             <col>29</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>24</row>
             <col>0</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4342,13 +4342,13 @@
         <square>
             <row>24</row>
             <col>2</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>24</row>
             <col>3</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4360,19 +4360,19 @@
         <square>
             <row>24</row>
             <col>5</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>24</row>
             <col>6</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>24</row>
             <col>7</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4408,7 +4408,7 @@
         <square>
             <row>24</row>
             <col>13</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4432,19 +4432,19 @@
         <square>
             <row>24</row>
             <col>17</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>24</row>
-            <col>18</col>
             <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>24</row>
+            <col>18</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>24</row>
             <col>19</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4456,13 +4456,13 @@
         <square>
             <row>24</row>
             <col>21</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>24</row>
             <col>22</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4474,7 +4474,7 @@
         <square>
             <row>24</row>
             <col>24</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4486,7 +4486,7 @@
         <square>
             <row>24</row>
             <col>26</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4498,25 +4498,25 @@
         <square>
             <row>24</row>
             <col>28</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>24</row>
             <col>29</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>25</row>
-            <col>0</col>
             <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>25</row>
+            <col>0</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>25</row>
             <col>1</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4528,13 +4528,13 @@
         <square>
             <row>25</row>
             <col>3</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>25</row>
             <col>4</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4546,7 +4546,7 @@
         <square>
             <row>25</row>
             <col>6</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4558,19 +4558,19 @@
         <square>
             <row>25</row>
             <col>8</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>25</row>
             <col>9</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>25</row>
             <col>10</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4588,7 +4588,7 @@
         <square>
             <row>25</row>
             <col>13</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4600,37 +4600,37 @@
         <square>
             <row>25</row>
             <col>15</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>25</row>
-            <col>16</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>25</row>
-            <col>17</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>25</row>
-            <col>18</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>25</row>
-            <col>19</col>
+            <col>16</col>
             <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>25</row>
+            <col>17</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>25</row>
+            <col>18</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>25</row>
+            <col>19</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>25</row>
             <col>20</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4642,19 +4642,19 @@
         <square>
             <row>25</row>
             <col>22</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>25</row>
             <col>23</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>25</row>
             <col>24</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4666,19 +4666,19 @@
         <square>
             <row>25</row>
             <col>26</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>25</row>
-            <col>27</col>
             <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>25</row>
+            <col>27</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>25</row>
             <col>28</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4690,25 +4690,25 @@
         <square>
             <row>26</row>
             <col>0</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>26</row>
             <col>1</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>26</row>
             <col>2</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>26</row>
             <col>3</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4726,7 +4726,7 @@
         <square>
             <row>26</row>
             <col>6</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4750,31 +4750,31 @@
         <square>
             <row>26</row>
             <col>10</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>26</row>
-            <col>11</col>
-            <state>empty</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>26</row>
-            <col>12</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>26</row>
-            <col>13</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>26</row>
-            <col>14</col>
+            <col>11</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>26</row>
+            <col>12</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>26</row>
+            <col>13</col>
             <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>26</row>
+            <col>14</col>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4792,7 +4792,7 @@
         <square>
             <row>26</row>
             <col>17</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4804,19 +4804,19 @@
         <square>
             <row>26</row>
             <col>19</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>26</row>
             <col>20</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>26</row>
             <col>21</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4828,19 +4828,19 @@
         <square>
             <row>26</row>
             <col>23</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>26</row>
-            <col>24</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>26</row>
-            <col>25</col>
+            <col>24</col>
             <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>26</row>
+            <col>25</col>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4858,25 +4858,25 @@
         <square>
             <row>26</row>
             <col>28</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>26</row>
             <col>29</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>27</row>
             <col>0</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>27</row>
             <col>1</col>
-            <state>red</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4894,7 +4894,7 @@
         <square>
             <row>27</row>
             <col>4</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4906,7 +4906,7 @@
         <square>
             <row>27</row>
             <col>6</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4918,25 +4918,25 @@
         <square>
             <row>27</row>
             <col>8</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>27</row>
-            <col>9</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>27</row>
+            <col>9</col>
+            <state>empty</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>27</row>
             <col>10</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>27</row>
             <col>11</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4954,13 +4954,13 @@
         <square>
             <row>27</row>
             <col>14</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>27</row>
             <col>15</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4972,7 +4972,7 @@
         <square>
             <row>27</row>
             <col>17</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -4984,19 +4984,19 @@
         <square>
             <row>27</row>
             <col>19</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>27</row>
             <col>20</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>27</row>
             <col>21</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -5008,67 +5008,67 @@
         <square>
             <row>27</row>
             <col>23</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>27</row>
             <col>24</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>27</row>
             <col>25</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>27</row>
             <col>26</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>27</row>
             <col>27</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>27</row>
             <col>28</col>
-            <state>blue</state>
+            <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>27</row>
             <col>29</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>28</row>
             <col>0</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>28</row>
-            <col>1</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>28</row>
-            <col>2</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>28</row>
-            <col>3</col>
+            <col>1</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>28</row>
+            <col>2</col>
             <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>28</row>
+            <col>3</col>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -5092,7 +5092,7 @@
         <square>
             <row>28</row>
             <col>7</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -5110,7 +5110,7 @@
         <square>
             <row>28</row>
             <col>10</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -5128,7 +5128,7 @@
         <square>
             <row>28</row>
             <col>13</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -5140,25 +5140,25 @@
         <square>
             <row>28</row>
             <col>15</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>28</row>
-            <col>16</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>28</row>
-            <col>17</col>
             <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>28</row>
-            <col>18</col>
+            <col>16</col>
+            <state>red</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>28</row>
+            <col>17</col>
             <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>28</row>
+            <col>18</col>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -5182,19 +5182,19 @@
         <square>
             <row>28</row>
             <col>22</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>28</row>
             <col>23</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>28</row>
             <col>24</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -5206,13 +5206,13 @@
         <square>
             <row>28</row>
             <col>26</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>28</row>
             <col>27</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -5230,19 +5230,19 @@
         <square>
             <row>29</row>
             <col>0</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>29</row>
             <col>1</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>29</row>
             <col>2</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -5254,31 +5254,31 @@
         <square>
             <row>29</row>
             <col>4</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>29</row>
-            <col>5</col>
             <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>29</row>
-            <col>6</col>
+            <col>5</col>
             <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>29</row>
+            <col>6</col>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>29</row>
             <col>7</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>29</row>
             <col>8</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -5290,25 +5290,25 @@
         <square>
             <row>29</row>
             <col>10</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>29</row>
             <col>11</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>29</row>
             <col>12</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>29</row>
             <col>13</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -5320,19 +5320,19 @@
         <square>
             <row>29</row>
             <col>15</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>29</row>
             <col>16</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>29</row>
             <col>17</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -5344,13 +5344,13 @@
         <square>
             <row>29</row>
             <col>19</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>29</row>
             <col>20</col>
-            <state>empty</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -5368,31 +5368,31 @@
         <square>
             <row>29</row>
             <col>23</col>
-            <state>blue</state>
+            <state>red</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>29</row>
             <col>24</col>
-            <state>blue</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>29</row>
-            <col>25</col>
-            <state>red</state>
-            <type>Segregation</type>
-        </square>
-        <square>
-            <row>29</row>
-            <col>26</col>
             <state>empty</state>
             <type>Segregation</type>
         </square>
         <square>
             <row>29</row>
+            <col>25</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>29</row>
+            <col>26</col>
+            <state>blue</state>
+            <type>Segregation</type>
+        </square>
+        <square>
+            <row>29</row>
             <col>27</col>
-            <state>red</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
         <square>
@@ -5404,7 +5404,7 @@
         <square>
             <row>29</row>
             <col>29</col>
-            <state>empty</state>
+            <state>blue</state>
             <type>Segregation</type>
         </square>
     </squares>

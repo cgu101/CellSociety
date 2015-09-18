@@ -60,9 +60,9 @@ public class XmlGenerator {
 	
 	private String getRandomState() {
 		double rand = Math.random();
-		if(rand > .66) {
+		if(rand > .5) {
 			return "red";
-		} else if (rand > .33){
+		} else if (rand > .2){
 			return "blue";
 		} else {
 			return "empty";

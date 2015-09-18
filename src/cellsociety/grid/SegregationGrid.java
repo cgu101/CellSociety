@@ -48,12 +48,11 @@ public class SegregationGrid extends AbstractGrid {
 		for(int row = 0; row < map.length; row++){
 			for(int col = 0; col < map[0].length; col++){ 
 				if(!map[row][col].getCurrentState().equals("empty")) {
-					Map<String, Integer> gridStats = getNeighbors(map[row][col], row, col);
-					int val1=0; int val2=0;
+					Map<String, Integer> gridStats = getNeighbors(row, col);
+					int val1 = gridStats.get(map[row][col].getCurrentState());
+					int val2=0;
 					for(String s: gridStats.keySet()) {
-						if(s.equals(map[row][col].getCurrentState())) {
-							val1 = gridStats.get(s);
-						} else {
+						if(!s.equals(map[row][col].getCurrentState())) {
 							val2 = gridStats.get(s);
 						}
 					}
@@ -70,11 +69,13 @@ public class SegregationGrid extends AbstractGrid {
 		}
 	}
 	
-	private HashMap<String, Integer> getNeighbors(Cell c, int row, int col) {
+	private HashMap<String, Integer> getNeighbors(int row, int col) {
 		HashMap<String, Integer> ret = new HashMap<String, Integer>();
+		ret.put("red", 0);
+		ret.put("blue", 0);
 		for(int i=-1; i <2; i++) {
 			for(int j=-1; j<2; j++) {
-				if(i != 0 && j != 0) {
+				if(i != 0 || j != 0) {
 					placeObject(i+row, j+col, ret);
 				}
 			}
@@ -85,11 +86,7 @@ public class SegregationGrid extends AbstractGrid {
 	private void placeObject(int i, int j, Map<String, Integer> ret) {
 		if(i >= 0 && i < map.length && j >=0 && j < map[0].length) {
 			if(!map[i][j].getCurrentState().equals("empty")) {
-				if(ret.containsKey(map[i][j].getCurrentState())) {
-					ret.put( map[i][j].getCurrentState(), ret.get(map[i][j].getCurrentState())+1);
-				} else {
-					ret.put(map[i][j].getCurrentState(), 1);
-				}
+				ret.put( map[i][j].getCurrentState(), ret.get(map[i][j].getCurrentState())+1);
 			}
 		}
 	}
