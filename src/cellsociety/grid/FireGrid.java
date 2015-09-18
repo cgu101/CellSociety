@@ -17,7 +17,6 @@ public class FireGrid extends AbstractGrid {
 		probLightning = 0.2;
 		probGrow = 0.0;
 		myParameters = new FireParameters();
-		//this.scene = myParameters.getScene();
 	}
 	
 	@Override

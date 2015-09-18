@@ -7,8 +7,12 @@ import cellsociety.grid.AbstractGrid;
 import cellsociety.managers.ConfigManager;
 import javafx.scene.Group;
 import javafx.scene.Scene;
+import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
+import javafx.scene.control.Dialog;
+import javafx.scene.control.TextInputDialog;
+import javafx.scene.control.Alert.AlertType;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.KeyCode;
@@ -137,11 +141,16 @@ public class StartScreen extends AbstractScreen {
 
 	private void handleAction() {
 		if (xmlLoader.getValue() != null) {
-			System.out.println(xmlLoader.getValue());
+			AbstractGrid newScreen = ConfigManager
+					.getObject(ConfigManager.scope(this.getClass().getName(), selected.iconName));
+			newScreen.loadXml(xmlLoader.getValue());
+			nextScreen = newScreen;
+		} else {
+			Alert uhoh = new Alert(AlertType.ERROR);
+			uhoh.setTitle("whoops");
+			uhoh.setContentText("please select an XML file");
+			uhoh.showAndWait();
 		}
-		AbstractGrid newScreen = ConfigManager.getObject(ConfigManager.scope(this.getClass().getName(), selected.iconName));
-		newScreen.loadXml(xmlLoader.getValue());
-		nextScreen = newScreen;
 	}
 
 	private class Icon extends Button {
