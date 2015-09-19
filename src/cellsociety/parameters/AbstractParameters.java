@@ -52,6 +52,7 @@ public abstract class AbstractParameters {
 	protected void init() {
 		List<String> sliderNames = ConfigManager.getStringList(ConfigManager.scope(this.getClass().getName(), "names"));
 		VBox paneBox = new VBox();
+		int i = 0;
 		for (String curr : sliderNames) {
 			List<Double> sliderValues = ConfigManager
 					.getDoubleList(ConfigManager.scope(this.getClass().getName(), curr));
@@ -59,7 +60,9 @@ public abstract class AbstractParameters {
 			values.put(curr, sliderValues.get(0));
 			ToggleList.add(nextToggle);
 			ToggleMap.put(curr, nextToggle);
-			paneBox.getChildren().add(nextToggle);
+			//paneBox.getChildren().add(nextToggle);
+			pane.add(nextToggle, 0, i);
+			i++;
 		}
 		resetButton = new Button("RESET");
 		resetButton.setOnAction((event) -> {
@@ -89,8 +92,13 @@ public abstract class AbstractParameters {
 		buttons.getChildren().add(resetButton);
 		buttons.getChildren().add(pauseButton);
 		buttons.getChildren().add(stepButton);
-		paneBox.getChildren().add(buttons);
-		pane.add(paneBox, 0, 0);
+	//	paneBox.getChildren().add(buttons);
+		pane.add(buttons, 0, i);
+//		pane.add(backButton, 0, i);
+//		pane.add(resetButton, 1, i);
+//		pane.add(pauseButton, 2, i);
+//		pane.add(stepButton, 3, i);
+		
 	}
 
 	public double getValue(String input) {
