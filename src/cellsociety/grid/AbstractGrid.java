@@ -5,6 +5,7 @@ import cellsociety.xml.XmlLoader;
 import cellsociety.cell.Cell;
 import cellsociety.managers.ConfigManager;
 import cellsociety.parameters.AbstractParameters;
+import javafx.geometry.Pos;
 import javafx.scene.Group;
 import javafx.scene.Scene;
 import javafx.scene.layout.GridPane;
@@ -28,12 +29,19 @@ public abstract class AbstractGrid extends AbstractScreen {
 	public void makeScene() {
 		WIDTH = (int) (mapPane.getBoundsInLocal().getWidth()
 				+ ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "paramWidth")));
-		HEIGHT = (int) (mapPane.getBoundsInLocal().getHeight());
-		scene = new Scene(root, WIDTH, HEIGHT);
-		root.getChildren().add(mapPane);
-		paramPane.setLayoutX(mapPane.getBoundsInLocal().getWidth()
-				+ ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "offset")));
-		root.getChildren().add(paramPane);
+		HEIGHT = (int) (Math.max(mapPane.getBoundsInLocal().getHeight(), 300));
+		mapPane.setAlignment(Pos.CENTER_LEFT);
+		paramPane.setAlignment(Pos.CENTER_RIGHT);
+		GridPane temp = new GridPane();
+		temp.setHgap(25.0);
+		temp.add(mapPane, 0, 0);
+		temp.add(paramPane, 1, 0);
+		temp.setAlignment(Pos.CENTER);
+		scene = new Scene(temp, WIDTH, HEIGHT);
+	//	root.getChildren().add(mapPane);
+	//	paramPane.setLayoutX(mapPane.getBoundsInLocal().getWidth()
+	//			+ ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "offset")));
+	//	root.getChildren().add(paramPane);
 		reset();
 	}
 

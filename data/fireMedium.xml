@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <file>
     <global>
-        <totRows>35</totRows>
-        <totCols>35</totCols>
+        <totRows>30</totRows>
+        <totCols>30</totCols>
     </global>
     <params>
         <Speed>5</Speed>
@@ -16,127 +16,127 @@
         <square>
             <row>0</row>
             <col>0</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>1</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>2</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>3</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>4</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>5</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>6</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>7</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>8</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>9</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>10</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>11</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>12</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>13</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>14</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>15</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>16</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>17</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
-            <col>18</col>
+            <col>12</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>13</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>14</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>15</col>
             <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>16</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>17</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>0</row>
+            <col>18</col>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>19</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>20</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -148,13 +148,13 @@
         <square>
             <row>0</row>
             <col>22</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>23</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -166,91 +166,61 @@
         <square>
             <row>0</row>
             <col>25</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>26</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>27</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>28</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>0</row>
             <col>29</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>30</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>31</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>32</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>33</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>0</row>
-            <col>34</col>
             <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>1</row>
             <col>0</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>1</row>
             <col>1</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>1</row>
             <col>2</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>3</col>
             <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>1</row>
-            <col>4</col>
+            <col>3</col>
             <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>4</col>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -262,13 +232,13 @@
         <square>
             <row>1</row>
             <col>6</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>1</row>
             <col>7</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -280,43 +250,43 @@
         <square>
             <row>1</row>
             <col>9</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>10</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>11</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>12</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>13</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>14</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>1</row>
-            <col>15</col>
+            <col>10</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>11</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>12</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>13</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>14</col>
             <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>15</col>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -334,7 +304,7 @@
         <square>
             <row>1</row>
             <col>18</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -346,31 +316,31 @@
         <square>
             <row>1</row>
             <col>20</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>21</col>
             <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>1</row>
-            <col>22</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>23</col>
+            <col>21</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>1</row>
+            <col>22</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>1</row>
+            <col>23</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>1</row>
             <col>24</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -382,79 +352,49 @@
         <square>
             <row>1</row>
             <col>26</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>1</row>
             <col>27</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>1</row>
             <col>28</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>29</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>1</row>
-            <col>30</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>31</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>32</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>33</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>1</row>
-            <col>34</col>
-            <state>earth</state>
+            <col>29</col>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>2</row>
             <col>0</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>1</col>
             <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>2</row>
+            <col>1</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>2</row>
             <col>2</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>2</row>
             <col>3</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -466,37 +406,37 @@
         <square>
             <row>2</row>
             <col>5</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>6</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>7</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>8</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>2</row>
+            <col>6</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>7</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>8</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>2</row>
             <col>9</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>2</row>
             <col>10</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -508,43 +448,43 @@
         <square>
             <row>2</row>
             <col>12</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>13</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>2</row>
-            <col>14</col>
+            <col>13</col>
             <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>14</col>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>2</row>
             <col>15</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>16</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>17</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>2</row>
-            <col>18</col>
+            <col>16</col>
             <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>17</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>2</row>
+            <col>18</col>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -556,7 +496,7 @@
         <square>
             <row>2</row>
             <col>20</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -580,13 +520,13 @@
         <square>
             <row>2</row>
             <col>24</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>2</row>
             <col>25</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -598,7 +538,7 @@
         <square>
             <row>2</row>
             <col>27</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -610,36 +550,6 @@
         <square>
             <row>2</row>
             <col>29</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>30</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>31</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>32</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>33</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>2</row>
-            <col>34</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
@@ -658,19 +568,19 @@
         <square>
             <row>3</row>
             <col>2</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>3</row>
             <col>3</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>3</row>
             <col>4</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -682,7 +592,7 @@
         <square>
             <row>3</row>
             <col>6</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -700,13 +610,13 @@
         <square>
             <row>3</row>
             <col>9</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>3</row>
             <col>10</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -724,13 +634,13 @@
         <square>
             <row>3</row>
             <col>13</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>3</row>
             <col>14</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -742,43 +652,43 @@
         <square>
             <row>3</row>
             <col>16</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>3</row>
-            <col>17</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>3</row>
-            <col>18</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>3</row>
+            <col>17</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>3</row>
+            <col>18</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>3</row>
             <col>19</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>3</row>
             <col>20</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>3</row>
             <col>21</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>3</row>
             <col>22</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -796,73 +706,43 @@
         <square>
             <row>3</row>
             <col>25</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>3</row>
             <col>26</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>3</row>
-            <col>27</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>3</row>
-            <col>28</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>3</row>
-            <col>29</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>3</row>
-            <col>30</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>3</row>
-            <col>31</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>3</row>
-            <col>32</col>
+            <col>27</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>3</row>
+            <col>28</col>
             <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>3</row>
-            <col>33</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>3</row>
-            <col>34</col>
-            <state>tree</state>
+            <col>29</col>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>4</row>
             <col>0</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>4</row>
             <col>1</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -886,31 +766,31 @@
         <square>
             <row>4</row>
             <col>5</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>4</row>
             <col>6</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>4</row>
             <col>7</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>4</row>
             <col>8</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>4</row>
             <col>9</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -922,43 +802,43 @@
         <square>
             <row>4</row>
             <col>11</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>4</row>
             <col>12</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>4</row>
             <col>13</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>4</row>
             <col>14</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>4</row>
             <col>15</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>4</row>
             <col>16</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>4</row>
             <col>17</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -976,13 +856,13 @@
         <square>
             <row>4</row>
             <col>20</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>4</row>
             <col>21</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -994,7 +874,7 @@
         <square>
             <row>4</row>
             <col>23</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1012,7 +892,7 @@
         <square>
             <row>4</row>
             <col>26</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1024,43 +904,13 @@
         <square>
             <row>4</row>
             <col>28</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>4</row>
             <col>29</col>
             <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>4</row>
-            <col>30</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>4</row>
-            <col>31</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>4</row>
-            <col>32</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>4</row>
-            <col>33</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>4</row>
-            <col>34</col>
-            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1072,19 +922,19 @@
         <square>
             <row>5</row>
             <col>1</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>2</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>3</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1096,61 +946,61 @@
         <square>
             <row>5</row>
             <col>5</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>6</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>7</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>8</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>9</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>10</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>5</row>
-            <col>11</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>5</row>
-            <col>12</col>
             <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
+            <col>11</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>5</row>
+            <col>12</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>5</row>
             <col>13</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>14</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1162,31 +1012,31 @@
         <square>
             <row>5</row>
             <col>16</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>17</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>18</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>19</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>20</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1198,37 +1048,37 @@
         <square>
             <row>5</row>
             <col>22</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>23</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>24</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>25</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>26</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>5</row>
             <col>27</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1240,49 +1090,19 @@
         <square>
             <row>5</row>
             <col>29</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>5</row>
-            <col>30</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>5</row>
-            <col>31</col>
             <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>5</row>
-            <col>32</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>5</row>
-            <col>33</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>5</row>
-            <col>34</col>
-            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>6</row>
             <col>0</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>6</row>
             <col>1</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1300,31 +1120,31 @@
         <square>
             <row>6</row>
             <col>4</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>6</row>
-            <col>5</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>6</row>
-            <col>6</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>6</row>
-            <col>7</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>6</row>
-            <col>8</col>
+            <col>5</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>6</row>
+            <col>6</col>
             <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>6</row>
+            <col>7</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>6</row>
+            <col>8</col>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1336,37 +1156,37 @@
         <square>
             <row>6</row>
             <col>10</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>6</row>
             <col>11</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>6</row>
             <col>12</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>6</row>
             <col>13</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>6</row>
             <col>14</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>6</row>
             <col>15</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1384,13 +1204,13 @@
         <square>
             <row>6</row>
             <col>18</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>6</row>
             <col>19</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1408,13 +1228,13 @@
         <square>
             <row>6</row>
             <col>22</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>6</row>
             <col>23</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1426,73 +1246,43 @@
         <square>
             <row>6</row>
             <col>25</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>6</row>
             <col>26</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>6</row>
             <col>27</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>6</row>
-            <col>28</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>6</row>
-            <col>29</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>6</row>
-            <col>30</col>
             <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>6</row>
-            <col>31</col>
-            <state>fire</state>
+            <col>28</col>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>6</row>
-            <col>32</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>6</row>
-            <col>33</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>6</row>
-            <col>34</col>
+            <col>29</col>
             <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>7</row>
             <col>0</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>7</row>
             <col>1</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1504,19 +1294,19 @@
         <square>
             <row>7</row>
             <col>3</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>7</row>
             <col>4</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>7</row>
             <col>5</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1534,7 +1324,7 @@
         <square>
             <row>7</row>
             <col>8</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1546,55 +1336,55 @@
         <square>
             <row>7</row>
             <col>10</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>7</row>
             <col>11</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>7</row>
             <col>12</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>7</row>
             <col>13</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>7</row>
             <col>14</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>7</row>
-            <col>15</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>7</row>
-            <col>16</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>7</row>
+            <col>15</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>7</row>
+            <col>16</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>7</row>
             <col>17</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>7</row>
             <col>18</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1606,25 +1396,25 @@
         <square>
             <row>7</row>
             <col>20</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>7</row>
             <col>21</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>7</row>
             <col>22</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>7</row>
             <col>23</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1636,13 +1426,13 @@
         <square>
             <row>7</row>
             <col>25</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>7</row>
             <col>26</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1654,103 +1444,73 @@
         <square>
             <row>7</row>
             <col>28</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>7</row>
             <col>29</col>
             <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>7</row>
-            <col>30</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>7</row>
-            <col>31</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>7</row>
-            <col>32</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>7</row>
-            <col>33</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>7</row>
-            <col>34</col>
-            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>8</row>
             <col>0</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>8</row>
             <col>1</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>8</row>
             <col>2</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>8</row>
             <col>3</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>8</row>
             <col>4</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>8</row>
             <col>5</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>8</row>
             <col>6</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>8</row>
             <col>7</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>8</row>
             <col>8</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>8</row>
             <col>9</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1762,37 +1522,37 @@
         <square>
             <row>8</row>
             <col>11</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>8</row>
-            <col>12</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>8</row>
-            <col>13</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>8</row>
-            <col>14</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>8</row>
-            <col>15</col>
+            <col>12</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>8</row>
+            <col>13</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>8</row>
+            <col>14</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>8</row>
+            <col>15</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>8</row>
             <col>16</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1810,7 +1570,7 @@
         <square>
             <row>8</row>
             <col>19</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1828,37 +1588,37 @@
         <square>
             <row>8</row>
             <col>22</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>8</row>
-            <col>23</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>8</row>
-            <col>24</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>8</row>
-            <col>25</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>8</row>
+            <col>23</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>8</row>
+            <col>24</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>8</row>
+            <col>25</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>8</row>
             <col>26</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>8</row>
             <col>27</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1871,36 +1631,6 @@
             <row>8</row>
             <col>29</col>
             <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>8</row>
-            <col>30</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>8</row>
-            <col>31</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>8</row>
-            <col>32</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>8</row>
-            <col>33</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>8</row>
-            <col>34</col>
-            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1912,31 +1642,31 @@
         <square>
             <row>9</row>
             <col>1</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>9</row>
             <col>2</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>9</row>
-            <col>3</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>9</row>
-            <col>4</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>9</row>
+            <col>3</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>9</row>
+            <col>4</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>9</row>
             <col>5</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1948,25 +1678,25 @@
         <square>
             <row>9</row>
             <col>7</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>9</row>
             <col>8</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>9</row>
             <col>9</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>9</row>
             <col>10</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -1996,7 +1726,7 @@
         <square>
             <row>9</row>
             <col>15</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2008,13 +1738,13 @@
         <square>
             <row>9</row>
             <col>17</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>9</row>
             <col>18</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2032,91 +1762,61 @@
         <square>
             <row>9</row>
             <col>21</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>9</row>
             <col>22</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>9</row>
             <col>23</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>9</row>
             <col>24</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>9</row>
             <col>25</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>9</row>
-            <col>26</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>9</row>
-            <col>27</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>9</row>
-            <col>28</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>9</row>
-            <col>29</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>9</row>
-            <col>30</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>9</row>
-            <col>31</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>9</row>
-            <col>32</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>9</row>
-            <col>33</col>
-            <state>burnt</state>
+            <col>26</col>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>9</row>
-            <col>34</col>
+            <col>27</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>9</row>
+            <col>28</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>9</row>
+            <col>29</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>10</row>
             <col>0</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2128,25 +1828,25 @@
         <square>
             <row>10</row>
             <col>2</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>10</row>
-            <col>3</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>10</row>
-            <col>4</col>
             <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>10</row>
-            <col>5</col>
+            <col>3</col>
             <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>10</row>
+            <col>4</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>10</row>
+            <col>5</col>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2158,7 +1858,7 @@
         <square>
             <row>10</row>
             <col>7</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2170,49 +1870,49 @@
         <square>
             <row>10</row>
             <col>9</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>10</row>
             <col>10</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>10</row>
-            <col>11</col>
             <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>10</row>
-            <col>12</col>
+            <col>11</col>
             <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>10</row>
+            <col>12</col>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>10</row>
             <col>13</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>10</row>
             <col>14</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>10</row>
             <col>15</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>10</row>
             <col>16</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2224,37 +1924,37 @@
         <square>
             <row>10</row>
             <col>18</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>10</row>
-            <col>19</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>10</row>
-            <col>20</col>
             <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>10</row>
+            <col>19</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>10</row>
+            <col>20</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>10</row>
             <col>21</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>10</row>
             <col>22</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>10</row>
             <col>23</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2266,25 +1966,25 @@
         <square>
             <row>10</row>
             <col>25</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>10</row>
             <col>26</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>10</row>
             <col>27</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>10</row>
             <col>28</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2294,39 +1994,9 @@
             <type>Fire</type>
         </square>
         <square>
-            <row>10</row>
-            <col>30</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>10</row>
-            <col>31</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>10</row>
-            <col>32</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>10</row>
-            <col>33</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>10</row>
-            <col>34</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
             <row>11</row>
             <col>0</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2338,13 +2008,13 @@
         <square>
             <row>11</row>
             <col>2</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>11</row>
             <col>3</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2356,7 +2026,7 @@
         <square>
             <row>11</row>
             <col>5</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2374,73 +2044,73 @@
         <square>
             <row>11</row>
             <col>8</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>11</row>
             <col>9</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>11</row>
-            <col>10</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>11</row>
-            <col>11</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>11</row>
-            <col>12</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>11</row>
-            <col>13</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>11</row>
-            <col>14</col>
+            <col>10</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>11</row>
+            <col>11</col>
             <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>11</row>
+            <col>12</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>11</row>
+            <col>13</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>11</row>
+            <col>14</col>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>11</row>
             <col>15</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>11</row>
             <col>16</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>11</row>
             <col>17</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>11</row>
             <col>18</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>11</row>
             <col>19</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2452,7 +2122,7 @@
         <square>
             <row>11</row>
             <col>21</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2476,61 +2146,31 @@
         <square>
             <row>11</row>
             <col>25</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>11</row>
             <col>26</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>11</row>
             <col>27</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>11</row>
             <col>28</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>11</row>
             <col>29</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>11</row>
-            <col>30</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>11</row>
-            <col>31</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>11</row>
-            <col>32</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>11</row>
-            <col>33</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>11</row>
-            <col>34</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2542,67 +2182,67 @@
         <square>
             <row>12</row>
             <col>1</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>12</row>
             <col>2</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>12</row>
             <col>3</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>12</row>
             <col>4</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>12</row>
             <col>5</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>12</row>
             <col>6</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>12</row>
             <col>7</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>12</row>
             <col>8</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>12</row>
             <col>9</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>12</row>
             <col>10</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>12</row>
             <col>11</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2614,7 +2254,7 @@
         <square>
             <row>12</row>
             <col>13</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2626,7 +2266,7 @@
         <square>
             <row>12</row>
             <col>15</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2638,31 +2278,31 @@
         <square>
             <row>12</row>
             <col>17</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>12</row>
             <col>18</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>12</row>
             <col>19</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>12</row>
             <col>20</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>12</row>
             <col>21</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2674,7 +2314,7 @@
         <square>
             <row>12</row>
             <col>23</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2692,7 +2332,7 @@
         <square>
             <row>12</row>
             <col>26</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2704,103 +2344,73 @@
         <square>
             <row>12</row>
             <col>28</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>12</row>
             <col>29</col>
             <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>12</row>
-            <col>30</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>12</row>
-            <col>31</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>12</row>
-            <col>32</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>12</row>
-            <col>33</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>12</row>
-            <col>34</col>
-            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>13</row>
             <col>0</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>13</row>
             <col>1</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>13</row>
             <col>2</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>13</row>
             <col>3</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>13</row>
             <col>4</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>13</row>
             <col>5</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>13</row>
-            <col>6</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>13</row>
+            <col>6</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>13</row>
             <col>7</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>13</row>
             <col>8</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>13</row>
             <col>9</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2812,13 +2422,13 @@
         <square>
             <row>13</row>
             <col>11</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>13</row>
             <col>12</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2830,37 +2440,37 @@
         <square>
             <row>13</row>
             <col>14</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>13</row>
-            <col>15</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>13</row>
-            <col>16</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>13</row>
-            <col>17</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>13</row>
+            <col>15</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>13</row>
+            <col>16</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>13</row>
+            <col>17</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>13</row>
             <col>18</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>13</row>
             <col>19</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2872,7 +2482,7 @@
         <square>
             <row>13</row>
             <col>21</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2890,7 +2500,7 @@
         <square>
             <row>13</row>
             <col>24</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2902,7 +2512,7 @@
         <square>
             <row>13</row>
             <col>26</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2920,49 +2530,19 @@
         <square>
             <row>13</row>
             <col>29</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>13</row>
-            <col>30</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>13</row>
-            <col>31</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>13</row>
-            <col>32</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>13</row>
-            <col>33</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>13</row>
-            <col>34</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>14</row>
             <col>0</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>14</row>
             <col>1</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -2992,85 +2572,85 @@
         <square>
             <row>14</row>
             <col>6</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>14</row>
-            <col>7</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>14</row>
+            <col>7</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>14</row>
             <col>8</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>14</row>
             <col>9</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>14</row>
             <col>10</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>14</row>
             <col>11</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>14</row>
             <col>12</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>14</row>
             <col>13</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>14</row>
             <col>14</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>14</row>
             <col>15</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>14</row>
             <col>16</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>14</row>
-            <col>17</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>14</row>
-            <col>18</col>
             <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>14</row>
+            <col>17</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>14</row>
+            <col>18</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>14</row>
             <col>19</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3082,13 +2662,13 @@
         <square>
             <row>14</row>
             <col>21</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>14</row>
             <col>22</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3100,7 +2680,7 @@
         <square>
             <row>14</row>
             <col>24</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3112,13 +2692,13 @@
         <square>
             <row>14</row>
             <col>26</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>14</row>
             <col>27</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3130,36 +2710,6 @@
         <square>
             <row>14</row>
             <col>29</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>14</row>
-            <col>30</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>14</row>
-            <col>31</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>14</row>
-            <col>32</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>14</row>
-            <col>33</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>14</row>
-            <col>34</col>
             <state>burnt</state>
             <type>Fire</type>
         </square>
@@ -3172,13 +2722,13 @@
         <square>
             <row>15</row>
             <col>1</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>15</row>
             <col>2</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3190,25 +2740,25 @@
         <square>
             <row>15</row>
             <col>4</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>15</row>
             <col>5</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>15</row>
             <col>6</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>15</row>
             <col>7</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3220,7 +2770,7 @@
         <square>
             <row>15</row>
             <col>9</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3232,7 +2782,7 @@
         <square>
             <row>15</row>
             <col>11</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3244,13 +2794,13 @@
         <square>
             <row>15</row>
             <col>13</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>15</row>
             <col>14</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3262,19 +2812,19 @@
         <square>
             <row>15</row>
             <col>16</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>15</row>
             <col>17</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>15</row>
             <col>18</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3286,19 +2836,19 @@
         <square>
             <row>15</row>
             <col>20</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>15</row>
             <col>21</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>15</row>
             <col>22</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3310,13 +2860,13 @@
         <square>
             <row>15</row>
             <col>24</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>15</row>
             <col>25</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3328,13 +2878,13 @@
         <square>
             <row>15</row>
             <col>27</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>15</row>
             <col>28</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3344,69 +2894,39 @@
             <type>Fire</type>
         </square>
         <square>
-            <row>15</row>
-            <col>30</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>15</row>
-            <col>31</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>15</row>
-            <col>32</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>15</row>
-            <col>33</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>15</row>
-            <col>34</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
             <row>16</row>
             <col>0</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>16</row>
             <col>1</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>16</row>
-            <col>2</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>16</row>
-            <col>3</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>16</row>
-            <col>4</col>
+            <col>2</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>16</row>
+            <col>3</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>16</row>
+            <col>4</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>16</row>
             <col>5</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3424,13 +2944,13 @@
         <square>
             <row>16</row>
             <col>8</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>16</row>
             <col>9</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3448,31 +2968,31 @@
         <square>
             <row>16</row>
             <col>12</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>16</row>
             <col>13</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>16</row>
-            <col>14</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>16</row>
-            <col>15</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>16</row>
-            <col>16</col>
+            <col>14</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>16</row>
+            <col>15</col>
             <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>16</row>
+            <col>16</col>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3484,31 +3004,31 @@
         <square>
             <row>16</row>
             <col>18</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>16</row>
             <col>19</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>16</row>
-            <col>20</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>16</row>
-            <col>21</col>
             <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>16</row>
-            <col>22</col>
+            <col>20</col>
             <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>16</row>
+            <col>21</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>16</row>
+            <col>22</col>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3526,13 +3046,13 @@
         <square>
             <row>16</row>
             <col>25</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>16</row>
             <col>26</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3544,55 +3064,25 @@
         <square>
             <row>16</row>
             <col>28</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>16</row>
-            <col>29</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>16</row>
-            <col>30</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>16</row>
-            <col>31</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>16</row>
-            <col>32</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>16</row>
-            <col>33</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>16</row>
-            <col>34</col>
-            <state>tree</state>
+            <col>29</col>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>17</row>
             <col>0</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>17</row>
             <col>1</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3604,49 +3094,49 @@
         <square>
             <row>17</row>
             <col>3</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>17</row>
             <col>4</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>17</row>
             <col>5</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>17</row>
             <col>6</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>17</row>
             <col>7</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>17</row>
             <col>8</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>17</row>
             <col>9</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>17</row>
             <col>10</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3658,7 +3148,7 @@
         <square>
             <row>17</row>
             <col>12</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3670,37 +3160,37 @@
         <square>
             <row>17</row>
             <col>14</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>17</row>
             <col>15</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>17</row>
-            <col>16</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>17</row>
-            <col>17</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>17</row>
-            <col>18</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>17</row>
-            <col>19</col>
+            <col>16</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>17</row>
+            <col>17</col>
             <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>17</row>
+            <col>18</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>17</row>
+            <col>19</col>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3712,7 +3202,7 @@
         <square>
             <row>17</row>
             <col>21</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3724,7 +3214,7 @@
         <square>
             <row>17</row>
             <col>23</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3736,61 +3226,31 @@
         <square>
             <row>17</row>
             <col>25</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>17</row>
             <col>26</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>17</row>
             <col>27</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>17</row>
             <col>28</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>17</row>
             <col>29</col>
             <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>17</row>
-            <col>30</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>17</row>
-            <col>31</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>17</row>
-            <col>32</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>17</row>
-            <col>33</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>17</row>
-            <col>34</col>
-            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3802,37 +3262,37 @@
         <square>
             <row>18</row>
             <col>1</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>18</row>
-            <col>2</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>18</row>
-            <col>3</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>18</row>
-            <col>4</col>
             <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>18</row>
+            <col>2</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>18</row>
+            <col>3</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>18</row>
+            <col>4</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>18</row>
             <col>5</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>18</row>
             <col>6</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3844,25 +3304,25 @@
         <square>
             <row>18</row>
             <col>8</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>18</row>
-            <col>9</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>18</row>
-            <col>10</col>
+            <col>9</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>18</row>
+            <col>10</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>18</row>
             <col>11</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3874,31 +3334,31 @@
         <square>
             <row>18</row>
             <col>13</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>18</row>
             <col>14</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>18</row>
-            <col>15</col>
             <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>18</row>
+            <col>15</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>18</row>
             <col>16</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>18</row>
             <col>17</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3916,13 +3376,13 @@
         <square>
             <row>18</row>
             <col>20</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>18</row>
             <col>21</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3934,13 +3394,13 @@
         <square>
             <row>18</row>
             <col>23</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>18</row>
             <col>24</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -3952,73 +3412,43 @@
         <square>
             <row>18</row>
             <col>26</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>18</row>
             <col>27</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>18</row>
             <col>28</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>18</row>
             <col>29</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>18</row>
-            <col>30</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>18</row>
-            <col>31</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>18</row>
-            <col>32</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>18</row>
-            <col>33</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>18</row>
-            <col>34</col>
             <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>19</row>
             <col>0</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>19</row>
             <col>1</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>19</row>
             <col>2</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4030,19 +3460,19 @@
         <square>
             <row>19</row>
             <col>4</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>19</row>
             <col>5</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>19</row>
             <col>6</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4054,7 +3484,7 @@
         <square>
             <row>19</row>
             <col>8</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4066,13 +3496,13 @@
         <square>
             <row>19</row>
             <col>10</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>19</row>
             <col>11</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4084,43 +3514,43 @@
         <square>
             <row>19</row>
             <col>13</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>19</row>
             <col>14</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>19</row>
             <col>15</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>19</row>
             <col>16</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>19</row>
             <col>17</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>19</row>
             <col>18</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>19</row>
             <col>19</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4132,13 +3562,13 @@
         <square>
             <row>19</row>
             <col>21</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>19</row>
             <col>22</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4150,13 +3580,13 @@
         <square>
             <row>19</row>
             <col>24</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>19</row>
             <col>25</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4180,61 +3610,31 @@
         <square>
             <row>19</row>
             <col>29</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>19</row>
-            <col>30</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>19</row>
-            <col>31</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>19</row>
-            <col>32</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>19</row>
-            <col>33</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>19</row>
-            <col>34</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>20</row>
             <col>0</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>20</row>
             <col>1</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>20</row>
             <col>2</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>20</row>
             <col>3</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4246,37 +3646,37 @@
         <square>
             <row>20</row>
             <col>5</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>20</row>
             <col>6</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>20</row>
             <col>7</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>20</row>
-            <col>8</col>
             <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>20</row>
-            <col>9</col>
+            <col>8</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>20</row>
+            <col>9</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>20</row>
             <col>10</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4294,13 +3694,13 @@
         <square>
             <row>20</row>
             <col>13</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>20</row>
             <col>14</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4312,55 +3712,55 @@
         <square>
             <row>20</row>
             <col>16</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>20</row>
             <col>17</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>20</row>
-            <col>18</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>20</row>
-            <col>19</col>
+            <col>18</col>
             <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>20</row>
+            <col>19</col>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>20</row>
             <col>20</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>20</row>
-            <col>21</col>
             <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>20</row>
-            <col>22</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>20</row>
-            <col>23</col>
+            <col>21</col>
             <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>20</row>
-            <col>24</col>
+            <col>22</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>20</row>
+            <col>23</col>
             <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>20</row>
+            <col>24</col>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4384,43 +3784,13 @@
         <square>
             <row>20</row>
             <col>28</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>20</row>
-            <col>29</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>20</row>
-            <col>30</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>20</row>
-            <col>31</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>20</row>
-            <col>32</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>20</row>
-            <col>33</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>20</row>
-            <col>34</col>
-            <state>fire</state>
+            <col>29</col>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4438,7 +3808,7 @@
         <square>
             <row>21</row>
             <col>2</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4450,7 +3820,7 @@
         <square>
             <row>21</row>
             <col>4</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4462,7 +3832,7 @@
         <square>
             <row>21</row>
             <col>6</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4486,7 +3856,7 @@
         <square>
             <row>21</row>
             <col>10</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4504,13 +3874,13 @@
         <square>
             <row>21</row>
             <col>13</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>21</row>
             <col>14</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4528,13 +3898,13 @@
         <square>
             <row>21</row>
             <col>17</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>21</row>
             <col>18</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4558,25 +3928,25 @@
         <square>
             <row>21</row>
             <col>22</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>21</row>
             <col>23</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>21</row>
             <col>24</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>21</row>
             <col>25</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4588,7 +3958,7 @@
         <square>
             <row>21</row>
             <col>27</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4604,36 +3974,6 @@
             <type>Fire</type>
         </square>
         <square>
-            <row>21</row>
-            <col>30</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>21</row>
-            <col>31</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>21</row>
-            <col>32</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>21</row>
-            <col>33</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>21</row>
-            <col>34</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
             <row>22</row>
             <col>0</col>
             <state>earth</state>
@@ -4642,7 +3982,7 @@
         <square>
             <row>22</row>
             <col>1</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4660,55 +4000,55 @@
         <square>
             <row>22</row>
             <col>4</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>22</row>
             <col>5</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>22</row>
             <col>6</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>22</row>
-            <col>7</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>22</row>
-            <col>8</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>22</row>
-            <col>9</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>22</row>
-            <col>10</col>
             <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>22</row>
-            <col>11</col>
+            <col>7</col>
             <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>22</row>
+            <col>8</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>22</row>
+            <col>9</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>22</row>
+            <col>10</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>22</row>
+            <col>11</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>22</row>
             <col>12</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4720,55 +4060,55 @@
         <square>
             <row>22</row>
             <col>14</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>22</row>
-            <col>15</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>22</row>
-            <col>16</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>22</row>
-            <col>17</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>22</row>
-            <col>18</col>
-            <state>burnt</state>
+            <col>15</col>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>22</row>
-            <col>19</col>
+            <col>16</col>
+            <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>22</row>
+            <col>17</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>22</row>
+            <col>18</col>
             <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>22</row>
+            <col>19</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>22</row>
             <col>20</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>22</row>
             <col>21</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>22</row>
             <col>22</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4780,7 +4120,7 @@
         <square>
             <row>22</row>
             <col>24</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4792,79 +4132,49 @@
         <square>
             <row>22</row>
             <col>26</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>22</row>
             <col>27</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>22</row>
             <col>28</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>22</row>
             <col>29</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>22</row>
-            <col>30</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>22</row>
-            <col>31</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>22</row>
-            <col>32</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>22</row>
-            <col>33</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>22</row>
-            <col>34</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>23</row>
-            <col>0</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>23</row>
-            <col>1</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>23</row>
-            <col>2</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>23</row>
-            <col>3</col>
+            <col>0</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>23</row>
+            <col>1</col>
+            <state>earth</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>23</row>
+            <col>2</col>
             <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>23</row>
+            <col>3</col>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4876,13 +4186,13 @@
         <square>
             <row>23</row>
             <col>5</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>23</row>
             <col>6</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4894,13 +4204,13 @@
         <square>
             <row>23</row>
             <col>8</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>23</row>
             <col>9</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4912,7 +4222,7 @@
         <square>
             <row>23</row>
             <col>11</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4924,43 +4234,43 @@
         <square>
             <row>23</row>
             <col>13</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>23</row>
             <col>14</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>23</row>
             <col>15</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>23</row>
             <col>16</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>23</row>
             <col>17</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>23</row>
             <col>18</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>23</row>
             <col>19</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4972,13 +4282,13 @@
         <square>
             <row>23</row>
             <col>21</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>23</row>
             <col>22</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -4990,13 +4300,13 @@
         <square>
             <row>23</row>
             <col>24</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>23</row>
             <col>25</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5008,7 +4318,7 @@
         <square>
             <row>23</row>
             <col>27</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5020,49 +4330,19 @@
         <square>
             <row>23</row>
             <col>29</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>23</row>
-            <col>30</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>23</row>
-            <col>31</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>23</row>
-            <col>32</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>23</row>
-            <col>33</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>23</row>
-            <col>34</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>24</row>
             <col>0</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>24</row>
             <col>1</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5074,7 +4354,7 @@
         <square>
             <row>24</row>
             <col>3</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5086,7 +4366,7 @@
         <square>
             <row>24</row>
             <col>5</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5098,13 +4378,13 @@
         <square>
             <row>24</row>
             <col>7</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>24</row>
             <col>8</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5122,13 +4402,13 @@
         <square>
             <row>24</row>
             <col>11</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>24</row>
             <col>12</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5140,37 +4420,37 @@
         <square>
             <row>24</row>
             <col>14</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>24</row>
             <col>15</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>24</row>
             <col>16</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>24</row>
             <col>17</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>24</row>
-            <col>18</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>24</row>
+            <col>18</col>
+            <state>burnt</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>24</row>
             <col>19</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5188,19 +4468,19 @@
         <square>
             <row>24</row>
             <col>22</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>24</row>
             <col>23</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>24</row>
             <col>24</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5218,49 +4498,19 @@
         <square>
             <row>24</row>
             <col>27</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>24</row>
             <col>28</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>24</row>
             <col>29</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>24</row>
-            <col>30</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>24</row>
-            <col>31</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>24</row>
-            <col>32</col>
             <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>24</row>
-            <col>33</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>24</row>
-            <col>34</col>
-            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5272,7 +4522,7 @@
         <square>
             <row>25</row>
             <col>1</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5290,25 +4540,25 @@
         <square>
             <row>25</row>
             <col>4</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>5</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>6</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>7</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5320,13 +4570,13 @@
         <square>
             <row>25</row>
             <col>9</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>10</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5338,13 +4588,13 @@
         <square>
             <row>25</row>
             <col>12</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>13</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5356,55 +4606,55 @@
         <square>
             <row>25</row>
             <col>15</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>16</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>17</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>18</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>19</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>20</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>21</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>22</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>23</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5416,60 +4666,30 @@
         <square>
             <row>25</row>
             <col>25</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>26</col>
-            <state>fire</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>27</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>28</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>25</row>
             <col>29</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>25</row>
-            <col>30</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>25</row>
-            <col>31</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>25</row>
-            <col>32</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>25</row>
-            <col>33</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>25</row>
-            <col>34</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
@@ -5482,19 +4702,19 @@
         <square>
             <row>26</row>
             <col>1</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>26</row>
             <col>2</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>26</row>
             <col>3</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5512,19 +4732,19 @@
         <square>
             <row>26</row>
             <col>6</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>26</row>
             <col>7</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>26</row>
             <col>8</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5536,7 +4756,7 @@
         <square>
             <row>26</row>
             <col>10</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5548,25 +4768,25 @@
         <square>
             <row>26</row>
             <col>12</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>26</row>
             <col>13</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>26</row>
-            <col>14</col>
             <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>26</row>
-            <col>15</col>
+            <col>14</col>
             <state>tree</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>26</row>
+            <col>15</col>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5578,13 +4798,13 @@
         <square>
             <row>26</row>
             <col>17</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>26</row>
             <col>18</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5596,19 +4816,19 @@
         <square>
             <row>26</row>
             <col>20</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>26</row>
             <col>21</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>26</row>
             <col>22</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5620,7 +4840,7 @@
         <square>
             <row>26</row>
             <col>24</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5632,7 +4852,7 @@
         <square>
             <row>26</row>
             <col>26</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5644,55 +4864,25 @@
         <square>
             <row>26</row>
             <col>28</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>26</row>
-            <col>29</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>26</row>
-            <col>30</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>26</row>
-            <col>31</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>26</row>
-            <col>32</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>26</row>
-            <col>33</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>26</row>
-            <col>34</col>
+            <col>29</col>
             <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>27</row>
             <col>0</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>27</row>
             <col>1</col>
-            <state>burnt</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5704,25 +4894,25 @@
         <square>
             <row>27</row>
             <col>3</col>
-            <state>tree</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>27</row>
             <col>4</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
             <row>27</row>
             <col>5</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>27</row>
             <col>6</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5752,7 +4942,7 @@
         <square>
             <row>27</row>
             <col>11</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5764,13 +4954,13 @@
         <square>
             <row>27</row>
             <col>13</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>27</row>
             <col>14</col>
-            <state>earth</state>
+            <state>tree</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5782,13 +4972,13 @@
         <square>
             <row>27</row>
             <col>16</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>27</row>
             <col>17</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5800,13 +4990,13 @@
         <square>
             <row>27</row>
             <col>19</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>27</row>
             <col>20</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5818,7 +5008,7 @@
         <square>
             <row>27</row>
             <col>22</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5830,13 +5020,13 @@
         <square>
             <row>27</row>
             <col>24</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>27</row>
             <col>25</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5848,7 +5038,7 @@
         <square>
             <row>27</row>
             <col>27</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5864,63 +5054,33 @@
             <type>Fire</type>
         </square>
         <square>
-            <row>27</row>
-            <col>30</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>27</row>
-            <col>31</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>27</row>
-            <col>32</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>27</row>
-            <col>33</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>27</row>
-            <col>34</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
             <row>28</row>
             <col>0</col>
-            <state>burnt</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
             <col>1</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>28</row>
-            <col>2</col>
             <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
-            <col>3</col>
+            <col>2</col>
             <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
+            <col>3</col>
+            <state>fire</state>
+            <type>Fire</type>
+        </square>
+        <square>
+            <row>28</row>
             <col>4</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5932,7 +5092,7 @@
         <square>
             <row>28</row>
             <col>6</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5944,25 +5104,25 @@
         <square>
             <row>28</row>
             <col>8</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
             <col>9</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
             <col>10</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
             <col>11</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5974,7 +5134,7 @@
         <square>
             <row>28</row>
             <col>13</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
@@ -5986,127 +5146,97 @@
         <square>
             <row>28</row>
             <col>15</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
             <col>16</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
             <col>17</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
             <col>18</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
             <col>19</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
             <col>20</col>
-            <state>earth</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
             <col>21</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
             <col>22</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
             <col>23</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
             <col>24</col>
-            <state>earth</state>
+            <state>fire</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
             <col>25</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
             <col>26</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>28</row>
-            <col>27</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>28</row>
-            <col>28</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>28</row>
-            <col>29</col>
             <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
-            <col>30</col>
-            <state>earth</state>
+            <col>27</col>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
-            <col>31</col>
-            <state>earth</state>
+            <col>28</col>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>28</row>
-            <col>32</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>28</row>
-            <col>33</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>28</row>
-            <col>34</col>
+            <col>29</col>
             <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>0</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -6118,13 +5248,13 @@
         <square>
             <row>29</row>
             <col>2</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>3</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -6142,7 +5272,7 @@
         <square>
             <row>29</row>
             <col>6</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -6154,13 +5284,13 @@
         <square>
             <row>29</row>
             <col>8</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>9</col>
-            <state>fire</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
@@ -6172,19 +5302,19 @@
         <square>
             <row>29</row>
             <col>11</col>
-            <state>tree</state>
+            <state>burnt</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>12</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>13</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -6196,61 +5326,61 @@
         <square>
             <row>29</row>
             <col>15</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>16</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>17</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>18</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>19</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>20</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>21</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>22</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>23</col>
-            <state>tree</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>24</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
@@ -6262,1105 +5392,25 @@
         <square>
             <row>29</row>
             <col>26</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>27</col>
-            <state>fire</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>28</col>
-            <state>burnt</state>
+            <state>earth</state>
             <type>Fire</type>
         </square>
         <square>
             <row>29</row>
             <col>29</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>29</row>
-            <col>30</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>29</row>
-            <col>31</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>29</row>
-            <col>32</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>29</row>
-            <col>33</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>29</row>
-            <col>34</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>0</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>1</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>2</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>3</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>4</col>
             <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>5</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>6</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>7</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>8</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>9</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>10</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>11</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>12</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>13</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>14</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>15</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>16</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>17</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>18</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>19</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>20</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>21</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>22</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>23</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>24</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>25</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>26</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>27</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>28</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>29</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>30</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>31</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>32</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>33</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>30</row>
-            <col>34</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>0</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>1</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>2</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>3</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>4</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>5</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>6</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>7</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>8</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>9</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>10</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>11</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>12</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>13</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>14</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>15</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>16</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>17</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>18</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>19</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>20</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>21</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>22</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>23</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>24</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>25</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>26</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>27</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>28</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>29</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>30</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>31</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>32</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>33</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>31</row>
-            <col>34</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>0</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>1</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>2</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>3</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>4</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>5</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>6</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>7</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>8</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>9</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>10</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>11</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>12</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>13</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>14</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>15</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>16</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>17</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>18</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>19</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>20</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>21</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>22</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>23</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>24</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>25</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>26</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>27</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>28</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>29</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>30</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>31</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>32</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>33</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>32</row>
-            <col>34</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>0</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>1</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>2</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>3</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>4</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>5</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>6</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>7</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>8</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>9</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>10</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>11</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>12</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>13</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>14</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>15</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>16</col>
-            <state>fire</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>17</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>18</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>19</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>20</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>21</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>22</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>23</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>24</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>25</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>26</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>27</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>28</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>29</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>30</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>31</col>
-            <state>earth</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>32</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>33</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>33</row>
-            <col>34</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>0</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>1</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>2</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>3</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>4</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>5</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>6</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>7</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>8</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>9</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>10</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>11</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>12</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>13</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>14</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>15</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>16</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>17</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>18</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>19</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>20</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>21</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>22</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>23</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>24</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>25</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>26</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>27</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>28</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>29</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>30</col>
-            <state>tree</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>31</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>32</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>33</col>
-            <state>burnt</state>
-            <type>Fire</type>
-        </square>
-        <square>
-            <row>34</row>
-            <col>34</col>
-            <state>burnt</state>
             <type>Fire</type>
         </square>
     </squares>
