@@ -18,6 +18,7 @@ public abstract class AbstractGrid extends AbstractScreen {
 	protected AbstractParameters myParameters;
 	protected double speed;
 	protected int timer = 0;
+	protected boolean calculated = false;
 
 	public AbstractGrid(String input) {
 		loadXml(input);
@@ -51,18 +52,28 @@ public abstract class AbstractGrid extends AbstractScreen {
 
 	@Override
 	public void run() {
+		if (!calculated) {
+			calculateStates();
+			calculated = true;
+		}
 		speed = myParameters.getValue("Speed");
 		if (timer == 0) {
 			if (myParameters.isDone()) {
 				nextScreen = ConfigManager.getObject("startScreen");
 			} else if (myParameters.isReset()) {
 				reset();
+			} else if (myParameters.isStep()) {
+				timer = ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "time"));
+				myParameters.setStep(false);
+			} else {
+				if (!myParameters.isPause()) {
+					timer++;
+				}
 			}
-			calculateStates();
-			timer++;
-		} else if (timer >= (int) ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "time"))
-				/ this.speed) {
+		} else
+			if (timer >= ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "time")) / this.speed) {
 			updateStates();
+			calculated = false;
 			timer = 0;
 		} else {
 			timer++;
@@ -80,5 +91,9 @@ public abstract class AbstractGrid extends AbstractScreen {
 	protected void reset() {
 		map = myLoader.buildGrid(mapPane);
 		myParameters.setReset(false);
+		myParameters.setStep(false);
+		myParameters.resetPause();
+		timer = 0;
+		calculated = false;
 	}
 }

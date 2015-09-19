@@ -17,8 +17,8 @@ public class XmlGenerator  {
 	private HashMap<String, Integer> myStates;
 	private List<String> states;
 	private Map<String, String> myValues;
-	private int rows = 35;
-	private int cols = 35;
+	private int rows = 100;
+	private int cols = 100;
 	private String type;
 	private String className;
 	private PrintWriter pw;
@@ -135,7 +135,7 @@ public class XmlGenerator  {
 	}
 	
 	public static void main(String...args) {	
-		XmlGenerator r = new XmlGenerator("Gol1.xml", "GameOfLife");
+		XmlGenerator r = new XmlGenerator("WTW3.xml", "WatorWorld");
 		r.printXml();
 	}
 }

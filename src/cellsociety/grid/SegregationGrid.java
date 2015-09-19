@@ -112,7 +112,7 @@ public class SegregationGrid extends AbstractGrid {
 	protected void reset() {
 		speed = myParameters.getValue("Speed");
 		similar = myParameters.getValue("Similar");
-		System.out.printf("The speed is: %s, the Similarity is: %s\n", speed, similar);
+		//System.out.printf("The speed is: %s, the Similarity is: %s\n", speed, similar);
 		super.reset();
 		buildList();
 	}

@@ -23,7 +23,7 @@ import javafx.scene.shape.Rectangle;
 import javafx.scene.text.Font;
 
 public abstract class AbstractParameters {
-	
+
 	protected GridPane pane;
 	protected List<Toggle> ToggleList;
 	protected HashMap<String, Toggle> ToggleMap;
@@ -32,6 +32,14 @@ public abstract class AbstractParameters {
 			ConfigManager.getInt(ConfigManager.scope(this.getClass().getName(), "FontSize")));
 	protected boolean done = false;
 	protected boolean reset = false;
+	protected boolean pause = true;
+	protected boolean step = false;
+
+	protected Button resetButton;
+	protected Button pauseButton;
+	protected Button backButton;
+	protected Button stepButton;
+	protected HBox buttons;
 
 	public AbstractParameters(GridPane pane) {
 		this.pane = pane;
@@ -53,24 +61,36 @@ public abstract class AbstractParameters {
 			ToggleMap.put(curr, nextToggle);
 			paneBox.getChildren().add(nextToggle);
 		}
-		Button reset = new Button("RESET");
-		reset.setOnAction((event) -> {
+		resetButton = new Button("RESET");
+		resetButton.setOnAction((event) -> {
 			this.reset = true;
 		});
-		Button back = new Button("END SIMULATION");
-		back.setOnAction((event) -> {
+		stepButton = new Button("STEP");
+		stepButton.setOnAction((event) -> {
+			this.step = true;
+		});
+		pauseButton = new Button("PLAY");
+		pauseButton.setOnAction((event) -> {
+			this.pause = !this.pause;
+			if (this.pause) {
+				pauseButton.setText("PLAY");
+				buttons.getChildren().add(stepButton);
+			} else {
+				pauseButton.setText("PAUSE");
+				buttons.getChildren().remove(stepButton);
+			}
+		});
+		backButton = new Button("MENU");
+		backButton.setOnAction((event) -> {
 			done = true;
 		});
-		HBox buttons = new HBox();
-		buttons.getChildren().add(reset);
-		buttons.getChildren()
-				.add(new Rectangle(ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "offset")),
-						ConfigManager.getInt(ConfigManager.scope(AbstractGrid.class.getName(), "offset")),
-						Color.TRANSPARENT));
-		buttons.getChildren().add(back);
+		buttons = new HBox();
+		buttons.getChildren().add(backButton);
+		buttons.getChildren().add(resetButton);
+		buttons.getChildren().add(pauseButton);
+		buttons.getChildren().add(stepButton);
 		paneBox.getChildren().add(buttons);
 		pane.add(paneBox, 0, 0);
-
 	}
 
 	public double getValue(String input) {
@@ -87,6 +107,26 @@ public abstract class AbstractParameters {
 
 	public boolean isReset() {
 		return reset;
+	}
+
+	public boolean isPause() {
+		return pause;
+	}
+
+	public boolean isStep() {
+		return step;
+	}
+
+	public void setStep(boolean step) {
+		this.step = step;
+	}
+
+	public void resetPause() {
+		pause = true;
+		pauseButton.setText("PLAY");
+		if (!buttons.getChildren().contains(stepButton)) {
+			buttons.getChildren().add(stepButton);
+		}
 	}
 
 	protected class Toggle extends VBox {

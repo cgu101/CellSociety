@@ -6,11 +6,11 @@
     </global>
     <params>
         <Speed>5</Speed>
-        <ProbCatch>0.5</ProbCatch>
-        <ProbLightning>0.5</ProbLightning>
+        <ProbCatch>0.1</ProbCatch>
+        <ProbLightning>0.1</ProbLightning>
         <rows>30</rows>
         <cols>30</cols>
-        <ProbGrow>0.5</ProbGrow>
+        <ProbGrow>0.8</ProbGrow>
     </params>
     <squares>
         <square>

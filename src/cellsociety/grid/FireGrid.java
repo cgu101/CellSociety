@@ -1,14 +1,8 @@
 package cellsociety.grid;
-
-import java.util.Arrays;
 import java.util.Random;
 
 import cellsociety.cell.Cell;
 import cellsociety.parameters.FireParameters;
-import javafx.scene.Group;
-import javafx.scene.layout.GridPane;
-import javafx.scene.layout.StackPane;
-import javafx.scene.paint.Color;
 
 public class FireGrid extends AbstractGrid {
 	private Double probCatch;
